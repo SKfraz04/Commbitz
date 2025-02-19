@@ -1,0 +1,968 @@
+.welcomeModal {
+    padding: 00px 130px 0;
+    background-image: url(../../../assets/images/webk.png);
+    background-size: 100% 100%;
+    border-radius: 0;
+    overflow: initial;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+}
+.modcontent {
+    padding-left: 41px;
+}
+.welcomeModal img {
+    max-width: 150px;
+    transform: scale(1.3);
+}
+#welcomemodal .modal-body.p-0 {
+    overflow: inherit;
+}
+.welcomeModal::before {
+    content: "";
+    background-image: url(../../../assets/images/offr.svg);
+    background-size: cover;
+    width: 220px;
+    height: 280px;
+    background-size: 100%;
+    position: absolute;
+    right: -50px;
+    top: 50px;
+    height: 123px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 0 0px 0 0;
+}
+.welcomeModal h3 {
+    display: none;
+    color: #000;
+    font-size: 30px;
+    text-align: left;
+}
+.welcmodalleft .formGrouo {
+    position: relative;
+}
+.welcmodalleft p {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+}
+.welcmodalright p {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+}
+.welcmodalleft .formGrouo input {
+    background: #000;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 13px;
+    height: 42px;
+    padding: 9px 17px 9px 11px;
+    width: 100%;
+}
+.Rightslider{
+    min-height: 470px;
+    display: flex !important;
+    align-items: flex-end;
+}
+.welcmodalleft .formGrouo span {
+    position: absolute;
+    left: 12px;
+    display: none;
+    top: 9px;
+}
+.Rightslider img{
+    width: 100%;
+}
+.welcmodalleft {
+    border-right: 1px solid;
+    padding-right: 19px;
+}
+.welcmodalright {
+    padding-left: 15px;
+}
+.scncode span {
+    font-size: 13px;
+    margin: 0 26px;
+    font-weight: 500;
+}
+.welcmodalleft .formGrouo span img {
+    max-width: 14px;
+}
+.scncode div a {
+    margin-right: 24px;
+}
+.scncode {
+    display: flex;
+    align-items: center;
+}
+.welcmodalleft .formGrouo button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #1ffe9d;
+    padding: 9px 17px;
+    border: 0;
+    color: #000;
+    border-radius: 0 7px 7px 0;
+}
+.welcomeModal h3 span {
+    font-size: 65px;
+}
+.welcomeModal h5 {
+    margin: 19px 0 27px;
+    color: #000;
+}
+
+section.esimCard::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000014;
+}
+
+.esimCardRight {
+    position: relative;
+    padding-left: 90px;
+}
+
+.centersimcard {
+    position: absolute;
+    top: 50%;
+    transform: trans
+    lateY(-50%);
+    background: #00000033;
+    border-radius: 10px;
+    padding: 22px;
+    min-width: 290px;
+    left: -40px;
+    right: 0;
+    margin: 0 auto;
+    display: table;
+    max-width: 290px;
+}
+
+.centersimcardhead h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.centersimcardhead h5 img {
+    max-width: 33px;
+    min-width: 33px;
+    border-radius: 100px;
+}
+
+.centersimcard ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.centersimcard ul li {
+    background: #ffffff3b;
+    border-radius: 6px;
+    padding: 6px;
+    width: 33.33%;
+    margin-right: 7px;
+    list-style: none;
+}
+
+.centersimcard ul li:last-child {
+    margin-right: 0px;
+}
+
+.centersimcard ul li label {
+    font-size: 11px;
+    color: #fff;
+    margin: 0;
+}
+
+.centersimcard ul li h6 {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.centersimcard ul li span {
+    font-size: 11px;
+    color: #fff;
+    margin: 19px 0 0;
+    display: table;
+}
+
+.esimcadbtn {
+    padding: 13px 0 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.esimcadbtn button {
+    background: #ffffff3b;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.esimcadbtn button.buybtn {
+    background: #2EAFF7;
+    margin-left: 17px;
+}
+.combitStep {
+    /* background-image: url(../../../assets/images/slidebk.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 80px;
+    position: relative;
+    background: linear-gradient(45deg, #0e8562 0%,#0b486c 20%,#2ea7db 47%,#139960 82%);
+}
+.Leftslider span {
+    font-size: 19px;
+    background: #1ffe9d;
+    padding: 5px 12px;
+    border-radius: 7px;
+    font-weight: 600;
+    float: left;
+    margin: 12px 0 30px;
+    clear: both;
+}
+.Leftslider ul {
+    width: 100%;
+    display: table;
+    padding: 0;
+    margin: 0;
+}
+.Leftslider ul li {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+    list-style: none;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 18px;
+}
+.Leftslider ul li::before {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 16px;
+    content: "";
+}
+.Leftslider {
+    padding-right: 120px;
+}
+
+.faqHome .FaqQuestion {
+    padding: 50px 0 0;
+}
+section.beachSeaction {
+    background-image: url(../../../assets/images/beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}
+.faqaccorright {
+    padding: 0 20px;
+}
+.faqaccorright ol, .faqaccorright ul 
+{
+    padding: 0;
+}   
+.sifmList
+{
+    padding-bottom: 70px;
+}
+.beachSeactionleft h5 {
+    font-size: 45px;
+    color: #fff;
+}
+.beachSeactionleft p {
+    font-size: 16px;
+    color: #fff;
+}
+section.partners {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #000;
+}
+section.partners p {
+    color: #fff;
+    margin: 0;
+}
+section.partners ul {
+    padding: 0;
+    margin: 80px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.partners ul li {
+    padding: 0 15px;
+}
+section.partners ul li img {
+    max-height: 50px;
+    object-fit: cover;
+}
+.esimBannerOuter .formGoup, .beachSeactionleft .formGoup {
+    position: relative;
+    max-width: 520px;
+}
+.esimBannerOuter .formGoup input, .beachSeactionleft .formGoup input{
+    background: #000;
+    padding: 0 17px;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.esimBannerOuter .formGoup button, .beachSeactionleft .formGoup button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #03FE9D;
+    border: 0;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    padding: 0 23px;
+    font-weight: 600;
+}
+.faqHome {
+    padding: 90px 0;
+}
+.blogSection {
+    background: #000000;
+    padding: 80px 0;
+}
+.blogSection h3 {
+    margin-bottom: 33px;
+}
+.blogInner {
+    border: 1px solid #03FE9D;
+    padding: 13px;
+    border-radius: 10px;
+}
+.blogInner img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.blogInner span {
+    font-size: 14px;
+    background: #1ffe9d;
+    padding: 5px 11px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 500;
+    margin: 15px 0 17px;
+    float: left;
+}
+.scncode img {
+    transform: scale(1);
+    max-width: 90px;
+}
+.blogInner h5 {
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    display: table;
+    padding-right: 20px;
+    min-height: 59px;
+}
+.blogInner label {
+    font-size: 15px;
+    color: #fff;
+    margin: 7px 0 13px;
+}
+a.Viewbtn {
+    background: #1ffe9d;
+    margin: 38px auto 0;
+    display: table;
+    padding: 13px 40px;
+    border-radius: 6px;
+    color: #000;
+    font-weight: 500;
+}
+.ratingSection {
+    padding: 90px 0;
+}
+.reviewInner {
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(3,254,157,1) 100%);
+    padding: 22px;
+    border-radius: 10px;
+}
+.reviewInner p {
+    font-size: 14px;
+    margin: 14px 0;
+    min-height: 193px;
+}
+.reviewInner h5 {
+    font-size: 16px;
+}
+.reviewInner span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 19px 0 0;
+}
+.reviewInner span img {
+    margin-right: 5px;
+}
+img.bnrImage {
+    width: 100%;
+    height: calc(100vh - 128px);
+    object-fit: cover;
+}
+.outreHomeside {
+    position: relative;
+}
+.innerHomeSlide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.outerCirlcle {
+    text-align: center;
+}
+.outerCirlcle img {
+    float: right;
+}
+.innerHomeSlideRight {
+    position: relative;
+}
+.CountryInCircle {
+    position: absolute;
+    top: 120px;
+    background: #00000026;
+    border-radius: 10px;
+    max-width: 290px;
+    transform: translateX(-50%);
+    padding: 20px;
+    right: 90px;
+    width: 100%;
+}
+.layBtn {
+    display: flex;
+    justify-content: space-between;
+} 
+.topHeadFlag h4 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.topHeadFlag h5 {
+    color: #fff;
+    font-size: 19px;
+}
+.topHeadFlag ul {
+    padding: 15px 0;
+    margin: 0;
+    display: flex;
+}
+.topHeadFlag ul li {
+    background: #BCBCBC24;
+    padding: 7px;
+    width: 33.22%;
+    margin: 0 3px;
+    border-radius: 8px;
+}
+.topHeadFlag ul li:first-child {
+    margin-left: 0;
+}
+.topHeadFlag ul li span {
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.topHeadFlag ul li h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.topHeadFlag ul li label {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 18px;
+}
+.layBtn button {
+    background: #BCBCBC24;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 9px 26px;
+    border-radius: 6px;
+}
+.layBtn button:last-child {
+    background: #1ffe9d;
+    color: #000;
+}
+.DicountImg {
+    margin-top: 30px;
+}
+.formGroup button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #1ffe9d;
+    padding: 13px 17px;
+    border: 0;
+    color: #000;
+    border-radius: 0 7px 7px 0;
+}
+.formGroup input {
+    width: 100%;
+    background: #000;
+    border: 0;
+    padding: 13px 17px;
+    padding-left: 43px;
+    border-radius: 7px;
+}
+.formGroup span {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+}
+.formGroup {
+    position: relative;
+    max-width: 430px;
+}
+.bullets span {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    background: #03FE9D;
+    border-radius: 100px;
+    position: absolute;
+    transition: 4s;
+}
+.bullets {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    max-width: 488px;
+    margin: 0 auto;
+    transition: 4s;
+}
+
+span.bulletone {
+    left: 110px;
+    top: 47px;
+    transition: 4s;
+}
+span.bullettwo {
+    top: 290px;
+    right: -103px;
+    background: #F9A020;
+    transition: 0.5s;
+}
+span.bulletthree {
+    background: #228CD2;
+    top: 450px;
+    left: 65px;
+}
+
+/* .dotstwo span.bulletone {
+    top: 290px;
+    right: -103px;
+    left: initial;
+}
+.dotstwo span.bullettwo {
+    top: 450px;
+    left: 65px;
+}
+.dotstwo span.bulletthree {
+    left: 110px;
+    top: 47px;
+} */
+.dotsone
+{
+   padding: auto; 
+}
+.dotstwo
+{
+    padding: auto; 
+}
+.dotsthree
+{
+    padding: auto; 
+}
+.slick-slide.slick-active.slick-current:nth-child(2) span.bulletone
+{
+    top: 290px;
+    right: -103px;
+    left: initial;
+}
+.slick-slide.slick-active.slick-current:nth-child(2) span.bullettwo
+{
+    top: 450px;
+    left: 65px;
+}
+.slick-slide.slick-active.slick-current:nth-child(2) span.bulletthree
+{
+    left: 110px;
+    top: 47px;
+}
+.innerHomeSlideLeft
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+
+    right: 0;
+    max-width: 1320px;
+    margin: 0 auto;
+    /* pointer-events: none; */
+}
+@media (max-width:1200px)
+{
+    .welcomeModal h3 {
+        display: none;
+        font-size: 26px;
+    }
+    .topHeadFlag ul li h6 {
+        font-size: 16px;
+    }
+    .welcomeModal h3 span {
+        font-size: 45px;
+    }
+    .modcontent {
+        padding-left: 44px;
+    }
+    .welcomeModal h5 {
+        font-size: 16px;
+    }
+    .scncode img {
+        max-width: 75px !important;
+    }
+    .welcomeModal img {
+        max-width: 130px;
+    }
+    .welcomeModal {
+        padding: 00px 90px 0;
+    }
+    .welcmodalright p {
+        padding-right: 20px;
+    }
+}
+@media (max-width:1200px)
+{
+    section.partners ul li {
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+    }
+    section.partners ul li img {
+        max-width: 112px;
+    }
+    .welcmodalleft .formGrouo input {
+        font-size: 12px;
+    }
+    .FirtPack ul li {
+        margin: 0px 7px 0 0;
+        width: 33.33%;
+        padding: 8px 10px;
+    }
+    .FirtPack ul li h5 {
+        font-size: 16px;
+    }
+}
+@media (max-width:991px)
+{
+    .welcomeModal {
+        flex-wrap: wrap;
+    }
+    .PhoneApp img {
+        position: absolute;
+        bottom: 0;
+        max-width: 110px;
+    }
+    .modcontent {
+        padding-left: 144px;
+        padding-top: 17px;
+    }
+    .welcmodalleft .formGrouo input {
+        font-size: 13px;
+    }
+    .welcomeModal {
+        padding: 0px 40px 20px;
+    }
+    section.partners ul li {
+        padding: 0 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section.partners ul li img {
+        max-width: 110px;
+    }
+    section.partners ul {
+        margin: 40px 0 0;
+    }
+    .esimBannerOuter::before {
+        width: 370px;
+    height: 256px;
+    }
+    section.beachSeaction {
+        padding: 70px 0;
+    }
+    
+    .esimBannerOuter {
+        padding: 60px 30px;
+    }
+    .esimBannerOuter h4 {
+        font-size: 39px;
+    }
+    section.partners ul {
+        flex-wrap: wrap;
+    }
+    .beachSeactionleft h5 {
+        font-size: 35px;
+    }
+}
+@media (max-width:767px)
+{
+    section.partners ul {
+        flex-wrap: wrap;
+    }
+    .innerHomeSlideRight {
+        display: none;
+    }
+    .welcmodalright p {
+        padding-right: 0;
+        font-size: 13px;
+        max-width: 240px;
+    }
+    .scncode div a {
+      margin-right: 0;
+      clear: both;
+      display: table;
+    }
+    .PhoneApp img {
+        position: absolute;
+        bottom: 0;
+        max-width: 70px;
+        right: 10px;
+    }
+    .welcomeModal::before {
+      width: 170px;
+      height: 93px;
+    }  .welcmodalright p {
+    padding-right: 0;
+    font-size: 13px;
+    max-width: 240px;
+}
+.scncode div a {
+  margin-right: 0;
+  clear: both;
+  display: table;
+}
+.welcomeModal::before {
+  width: 170px;
+  height: 93px;
+}
+    .modcontent {
+        padding-left: 0;
+        padding-top: 47px;
+    }
+    .welcmodalleft {
+        border-right: 0;
+        padding-right: 0;
+    }
+    .welcmodalright {
+        padding-left: 0;
+        margin-top: 14px;
+    }
+    .welcomeModal {
+        padding: 0px 15px 20px;
+    }
+    .welcomeModal h3 span {
+        font-size: 35px;
+    }
+    .welcomeModal h3 {
+        font-size: 20px;
+        padding-right: 90px;
+    }
+    .innerHomeSlide {
+        top: 30px;
+        transform: translateY(0%);
+        left: 0;
+        right: 0;
+        padding: 0 15px;
+        margin: 0;
+    }
+    img.bnrImage {
+        height: 310px;
+        object-fit: cover;
+        object-position: center;
+    }
+    section.partners ul li {
+        padding: 0 14px;
+        width: 33%;
+        margin: 10px 0;
+    }
+    .esimBlogs ul li {
+        list-style: none;
+        margin: 7px 0;
+        width: 100%;
+        display: table;
+    }
+    .DicountImg {
+        margin-top: 9px;
+    }
+    .esimBlogs ul li span {
+        padding: 10px 14px;
+        font-size: 14px;
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .esimPack {
+        padding: 20px 15px;
+    }
+    .PackHead {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .esimBlogs .FirtPack ul li h5 {
+        font-size: 17px;
+        color: #fff;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .faqHome {
+        padding: 30px 0;
+    }
+    .faqHome .FaqQuestion {
+        padding: 10px 0 0;
+    }
+    .blogSection {
+        padding: 40px 10px;
+    }
+    .blogInner {
+        margin-bottom: 16px;
+    }
+    a.Viewbtn{
+        margin: 9px auto 0;
+        padding: 10px 30px;
+    }
+    .reviewInner {
+        margin-bottom: 13px;
+    }
+    .ratingSection {
+        padding: 40px 5px;
+    }
+    .blogInner h5 {
+        font-size: 21px;
+    }
+    h2.accordion-header button {
+        padding: 22px 20px;
+    }
+    .esimBlogs .FirtPack ul li {
+        margin: 0px 0px 8px 0;
+        width: 100%;
+    }
+    .faqaccorright p {
+        font-size: 15px;
+    }
+    .topFilter {
+        padding-top: 19px;
+    }
+    .conitSlider img {
+        width: 100%;
+    }
+    .combitStep {
+        padding: 10px 0 30px;
+    }
+    .esimBlogs ul {
+        margin-top: 11px;
+    }
+    .esimBlogs ul {
+        flex-wrap: wrap;
+    }
+    section.esimDestination {
+        padding: 30px 0;
+    }
+    .DicountImg img {
+        max-width: 191px;
+    }
+    section.partners ul li  img {
+        width: 100%;
+    }
+   
+    .esimBannerOuter h4 {
+        font-size: 26px;
+        color: #fff;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+    .esimBannerOuter::before {
+        width: 230px;
+        height: 150px;
+    }
+    .esimBannerOuter .formGoup input, .beachSeactionleft .formGoup input {
+        height: 46px;
+    }
+    .sifmList {
+        padding-bottom: 20px;
+    }
+    section.beachSeaction {
+        padding: 31px 0;
+    }
+    .beachSeactionleft h5 {
+        font-size: 28px;
+        color: #fff;
+    }
+    section.partners{
+        padding: 31px 0;
+    }
+    section.partners ul {
+        margin: 10px 0 0;
+    }
+    .esimFilter {
+        padding: 22px 0 20px;
+        flex-wrap: wrap;
+    }
+    .esimFilter .formGroup {
+        width: 100%;
+        margin: 6px 0;
+    }
+    .esimBannerOuter {
+        padding: 26px 16px 170px;
+    }
+}

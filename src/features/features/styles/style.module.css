@@ -1,0 +1,408 @@
+.pagination ul {
+    padding: 0;
+    margin: 12px 0 20px;
+}
+.pagination ul a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+.pagination ul a.active {
+    opacity: 0.5;
+}
+.pagination ul a::before {
+    width: 2px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 1px;
+    transform: rotate(26deg);
+}
+.pagination ul a:first-child::before {
+    opacity: 0;
+}
+.paymentSucessInner {
+    background: #1A2228;
+    border-radius: 10px;
+    border: 1px dashed #1ffe9d;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0 60px;
+}
+.paymentSucessInner h4 {
+    font-size: 28px;
+    color: #fff;
+    margin: 17px 0 0;
+    font-weight: 500;
+}
+.paymentSucessInner p {
+    max-width: 728px;
+    color: #AEAEAE;
+    margin: 14px auto;
+    display: table;
+    font-weight: 400;
+    font-size: 14px;
+}
+.SuccBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SuccBtn a {
+    background-image: linear-gradient(to right, #2CA8EF , #03FE9D);
+    background: #03FE9D;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 7px;
+    min-width: 200px;
+    margin: 12px 10px;
+}
+section.beachSeaction {
+    background-image: url(../../../assets/images/beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}
+.sifmList
+{
+    padding-bottom: 70px;
+}
+.beachSeactionleft h5 {
+    font-size: 45px;
+    color: #fff;
+}
+.beachSeactionleft p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.esimBannerOuter .formGoup, .beachSeactionleft .formGoup {
+    position: relative;
+    max-width: 520px;
+}
+.esimBannerOuter .formGoup input, .beachSeactionleft .formGoup input{
+    background: #000;
+    padding: 0 17px;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.esimBannerOuter .formGoup button, .beachSeactionleft .formGoup button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #03FE9D;
+    border: 0;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    padding: 0 23px;
+    font-weight: 600;
+}
+.Featurebaner img {
+    width: 100%;
+}
+.Featurebaner {
+    position: relative;
+}
+.FeaturebanerText {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 1320px;
+}
+.FeaturebanerText h3 span {
+    color: #1ffe9d;
+}
+.Featurebanerright p {
+    margin: 0;
+    font-size: 16px;
+}
+.Featurebanerright {
+    width: 280px;
+    height: 280px;
+    background: #03FE9D;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+    margin-left: auto;
+    float: right;
+    position: relative;
+}
+.Featurebanerright::before {
+    background-image: url(../../../assets/images/arrow.png);
+    width: 118px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: -70px;
+}
+.Esimoffers {
+    background-image: linear-gradient(to right, #2CA8EF , #03FE9D);
+    background: #03FE9D;
+    color: #000;
+    padding: 80px 0;
+}
+.Esimoffers h6 {
+    text-align: center;
+}
+.Esimoffers h3 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.esimofferleft {
+    background: #54545436;
+    border: 1px solid #fff;
+    border-radius: 11px;
+}
+.esimdatapk {
+    background: #54545436;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    min-height: 251px;
+    margin-bottom: 12px;
+    padding: 25px;
+}
+.esimdatapk h5 {
+    font-size: 45px;
+    color: #fff;
+}
+.esimdatapk p {
+    color: #fff;
+    margin: 0;
+}
+.showcasse {
+    padding: 80px 0;
+}
+.showcaseLeft p {
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+.showcaseRight {
+    text-align: right;
+}
+.showcaseLeft h3 {
+    margin: 13px 0 22px;
+}
+.showcaseImage {
+    border: 1px solid #FFFFFF80;
+    border-radius: 10px;
+    padding: 28px;
+    margin-top: 50px;
+}
+.showcaseImage h4 {
+    font-size: 26px;
+    color: #fff;
+    margin: 23px 0 11px;
+}
+.showcaseImage h5 {
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+@media (max-width:1400px)
+{
+    .FeaturebanerText {
+        max-width: 1000px;
+    }
+    .esimofferleft img {
+        width: 100%;
+    }
+    .esimdatapk {
+        min-height: 190px;
+        padding: 13px;
+    }
+    .esimdatapk h5 {
+        font-size: 35px;
+    }
+}
+@media (max-width:1200px)
+{
+    section.partners ul li {
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+    }
+    section.partners ul li img {
+        max-width: 112px;
+    }
+    .FirtPack ul li {
+        margin: 0px 7px 0 0;
+        width: 33.33%;
+        padding: 8px 10px;
+    }
+    .FirtPack ul li h5 {
+        font-size: 16px;
+    }
+}
+@media (max-width:991px)
+{
+    section.partners ul li {
+        padding: 0 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .showcaseRight img {
+        width: 100%;
+    }
+    section.partners ul li img {
+        max-width: 110px;
+    }
+    section.partners ul {
+        margin: 40px 0 0;
+    }
+    .showcaseImage{
+        padding: 17px;
+    }
+    .showcaseImage h4 {
+        font-size: 21px;
+    }
+    .Esimoffers{
+        padding: 40px 0;
+    }
+    .Featurebanerright {
+        width: 240px;
+        height: 240px;
+    }
+    .esimBannerOuter::before {
+        width: 370px;
+    height: 256px;
+    }
+    section.beachSeaction {
+        padding: 70px 0;
+    }
+    .Featurebanerright p {
+        font-size: 14px;
+    }
+    .Featurebanerright::before {        
+        width: 78px;
+        height: 80px;
+        top: -20px;
+    }
+    .esimBannerOuter {
+        padding: 60px 30px;
+    }
+    .esimdatapk p {
+        font-size: 14px;
+    }
+    .FeaturebanerText {
+        max-width: 96%;
+    }
+    .esimBannerOuter h4 {
+        font-size: 39px;
+    }
+    section.partners ul {
+        flex-wrap: wrap;
+    }
+    .beachSeactionleft h5 {
+        font-size: 35px;
+    }
+}
+@media (max-width:767px)
+{
+    section.partners ul {
+        flex-wrap: wrap;
+    }
+    section.partners ul li {
+        padding: 0 14px;
+        width: 33%;
+        margin: 10px 0;
+    }
+    section.partners ul li  img {
+        width: 100%;
+    }
+    .FeaturebanerText {
+        max-width: 94%;
+    }
+    .FeaturebanerText h3 {
+        font-size: 23px;
+    }
+    .esimofferleft {
+        margin-bottom: 14px;
+    }
+    .esimdatapk{
+        min-height: auto;
+        padding: 23px 13px;
+    }
+    .Featurebaner img {
+        height: 350px;
+        object-fit: cover;
+    }
+    .esimdatapk h5 {
+        font-size: 28px;
+    }
+    .showcasse {
+        padding: 40px 0;
+    }
+    .showcaseImage {
+        margin-top: 26px;
+    }
+    .showcaseRight img {
+        margin-top: 20px;
+    }
+    .esimBannerOuter h4 {
+        font-size: 26px;
+        color: #fff;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+    .esimBannerOuter::before {
+        width: 230px;
+        height: 150px;
+    }
+    .esimBannerOuter .formGoup input, .beachSeactionleft .formGoup input {
+        height: 46px;
+    }
+    .sifmList {
+        padding-bottom: 20px;
+    }
+    section.beachSeaction {
+        padding: 31px 0;
+    }
+    .beachSeactionleft h5 {
+        font-size: 28px;
+        color: #fff;
+    }
+    section.partners{
+        padding: 31px 0;
+    }
+    section.partners ul {
+        margin: 10px 0 0;
+    }
+    .esimFilter {
+        padding: 22px 0 20px;
+        flex-wrap: wrap;
+    }
+    .esimFilter .formGroup {
+        width: 100%;
+        margin: 6px 0;
+    }
+    .esimBannerOuter {
+        padding: 26px 16px 170px;
+    }
+    .SuccBtn a {
+        padding: 12px 10px;
+        min-width: 160px;
+        margin: 12px 6px;
+        font-size: 14px;
+    }
+    .paymentSucessInner{
+        padding: 20px 14px;
+    }
+}

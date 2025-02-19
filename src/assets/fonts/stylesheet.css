@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Bw-Gradual-thin';
+    src: url('BwGradualDEMO-Thin.eot');
+    src: url('BwGradualDEMO-Thin.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Thin.woff2') format('woff2'),
+        url('BwGradualDEMO-Thin.woff') format('woff'),
+        url('BwGradualDEMO-Thin.ttf') format('truetype'),
+        url('BwGradualDEMO-Thin.svg#BwGradualDEMO-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-bold';
+    src: url('BwGradualDEMO-Bold.eot');
+    src: url('BwGradualDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Bold.woff2') format('woff2'),
+        url('BwGradualDEMO-Bold.woff') format('woff'),
+        url('BwGradualDEMO-Bold.ttf') format('truetype'),
+        url('BwGradualDEMO-Bold.svg#BwGradualDEMO-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-normal';
+    src: url('BwGradualDEMO-Light.eot');
+    src: url('BwGradualDEMO-Light.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Light.woff2') format('woff2'),
+        url('BwGradualDEMO-Light.woff') format('woff'),
+        url('BwGradualDEMO-Light.ttf') format('truetype'),
+        url('BwGradualDEMO-Light.svg#BwGradualDEMO-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-extrabold';
+    src: url('BwGradualDEMO-ExtraBold.eot');
+    src: url('BwGradualDEMO-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-ExtraBold.woff2') format('woff2'),
+        url('BwGradualDEMO-ExtraBold.woff') format('woff'),
+        url('BwGradualDEMO-ExtraBold.ttf') format('truetype'),
+        url('BwGradualDEMO-ExtraBold.svg#BwGradualDEMO-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-medium';
+    src: url('BwGradualDEMO-Medium.eot');
+    src: url('BwGradualDEMO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Medium.woff2') format('woff2'),
+        url('BwGradualDEMO-Medium.woff') format('woff'),
+        url('BwGradualDEMO-Medium.ttf') format('truetype'),
+        url('BwGradualDEMO-Medium.svg#BwGradualDEMO-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-black';
+    src: url('BwGradualDEMO-Black.eot');
+    src: url('BwGradualDEMO-Black.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Black.woff2') format('woff2'),
+        url('BwGradualDEMO-Black.woff') format('woff'),
+        url('BwGradualDEMO-Black.ttf') format('truetype'),
+        url('BwGradualDEMO-Black.svg#BwGradualDEMO-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw-Gradual-regular';
+    src: url('BwGradualDEMO-Regular.eot');
+    src: url('BwGradualDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BwGradualDEMO-Regular.woff2') format('woff2'),
+        url('BwGradualDEMO-Regular.woff') format('woff'),
+        url('BwGradualDEMO-Regular.ttf') format('truetype'),
+        url('BwGradualDEMO-Regular.svg#BwGradualDEMO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

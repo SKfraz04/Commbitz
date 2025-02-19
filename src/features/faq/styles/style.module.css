@@ -1,0 +1,117 @@
+.rotate {
+    transform: rotate(180deg);
+}
+
+.Faqtopouter {
+    background: #03FE9D;
+    padding: 35px;
+    border-radius: 12px;
+}
+
+.faqLeft h3 {
+    color: #000;
+    /* font-family: 'Bw-Gradual-bold'; */
+}
+
+.faqLeft a {
+    background: #000000;
+    color: #1ffe9d;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 100px;
+    margin-top: 4px;
+    float: left;
+}
+
+.faqLeft a i {
+    margin-right: 5px;
+}
+
+.faqRight p {
+    font-size: 21px;
+    margin: 0;
+    color: #000;
+    font-weight: 500;
+}
+
+.Faqtop {
+    padding: 10px 0 60px;
+    background: #fff;
+}
+.FaqtopDark
+{
+    padding: 10px 0 60px;
+    background: #000;
+}
+
+.FaqQuestion {
+    background: #1C2B35;
+    padding: 70px 0;
+}
+.FaqQuestionLight {
+
+    background: #fff;
+    padding: 70px 0;
+}
+.faqaccorright ol, .faqaccorright ul 
+{
+    padding: 0;
+}
+
+@media (max-width:991px) {
+    .faqaccorleft img {
+        width: 100%;
+    }
+
+    .faqRight p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .sifmList {
+        padding-bottom: 20px;
+    }
+
+    .esimFilter {
+        padding: 22px 0 20px;
+        flex-wrap: wrap;
+    }
+
+    .esimFilter .formGroup {
+        width: 100%;
+        margin: 6px 0;
+    }
+
+    .Faqtopouter {
+        padding: 17px;
+    }
+
+    .faqLeft h3 {
+        color: #000;
+        font-size: 23px;
+    }
+
+    .faqRight p {
+        font-size: 14px;
+    }
+
+    .Faqtop {
+        padding: 8px 0 30px;
+    }
+
+    .FaqQuestion {
+        background: #1C2B35;
+        padding: 40px 0;
+    }
+
+    .faqaccorright p {
+        font-size: 15px;
+    }
+
+    .faqaccorright {
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,148 @@
+.FirtPack ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.FirtPack ul li {
+  margin: 0px 6px 0 6px;
+  background: #000;
+  border-radius: 10px;
+  width: 33.33%;
+  padding: 13px 10px;
+  min-height: 102px;
+}
+
+.FirtPack ul li:last-child, .FirtPack ul li:first-child {
+  margin: 0;
+}
+
+.FirtPack ul li span {
+  font-size: 12px !important;
+  background: transparent!important;
+  padding: 0!important;
+  color: #fff;
+}
+
+.FirtPack ul li h5 {
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 0 0;
+}
+
+.FirtPack {
+  background: #1C2B35;
+  border-radius: 10px;
+  padding: 20px 14px;
+  margin-bottom: 19px;
+}
+
+.PackHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.viewAll {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 20px 0 0;
+}
+.viewAll a {
+  color: #03FE9D;
+  font-size: 15px;
+  font-weight: 500;
+}
+.buySimBtn {
+/* background-image: linear-gradient(to right, #1C77BC, #03FE9D); */
+background: #1ffe9d;
+font-size: 15px;
+text-decoration: none;
+width: auto;
+display: table;
+text-align: center;
+border-radius: 11px;
+padding: 8px 19px;
+color: #000;
+margin-top: 0px;
+cursor: pointer;
+font-weight: 500;
+}
+
+.PackHeadLeft, .PackHeadRight {
+  margin-bottom: 8px;
+}
+
+
+.PackHeadLeft h4 {
+  font-size: 15px;
+  color: #ffff;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 145px;
+  white-space: nowrap;
+}
+
+
+.PackHeadLeft p {
+font-size: 12px;
+color: #fff;
+margin: 0;
+}
+
+.PackHeadRight span {
+  font-size: 14px;
+  background: #FFC700;
+  border-radius: 100px;
+  font-weight: 600;
+  padding: 4px 14px;
+}
+
+.PackHeading h4 {
+font-size: 22px;
+color: #fff;
+font-weight: 600;
+margin: 17px 0 23px;
+}
+@media (max-width:1400px)
+{
+  .PackHeadLeft h4 {
+    width: 139px;
+}
+h3 {
+  font-size: 37px;
+}
+.WonderingRight a {
+  font-size: 14px;
+}
+}
+@media (max-width:1200px) {
+  .FirtPack ul li {
+      margin: 0px 7px 0 0;
+      width: 33.33%;
+      padding: 8px 10px;
+  }
+
+  .FirtPack ul li h5 {
+      font-size: 15px;
+  }
+}
+@media (max-width:767px)
+{
+  .FirtPack {
+    padding: 15px 10px;
+}
+.FirtPack ul li {
+  width: 31.33%;
+  padding: 8px 8px;
+  margin: 0 7px;
+}
+.FirtPack ul li h5 {
+  font-size: 14px;
+  text-align: left;
+  display: table;
+  width: 100%;
+}
+}

@@ -1,0 +1,596 @@
+.pagination ul {
+    padding: 0;
+    margin: 12px 0 20px;
+}
+
+.pagination ul a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+.pagination ul a.active {
+    opacity: 0.5;
+}
+.pagination ul a::before {
+    width: 2px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 1px;
+    transform: rotate(26deg);
+}
+.pagination ul a:first-child::before {
+    opacity: 0;
+}
+.profileLeft,
+.profileRight {
+    background: #101111;
+    padding: 22px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.profilelefttp,
+.profileRight h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdcdc61;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.profilelefttp h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+.Profileouter {
+    padding: 27px 0 80px;
+}
+.profileImage {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc61;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.profileImage span img {
+    max-width: 72px;
+    max-height: 72px;
+    border-radius: 100px;
+    width: 72px;
+    object-fit: cover;
+    margin-right: 18px;
+}
+
+.profileData h6 {
+    font-size: 19px;
+    color: #fff;
+    margin: 0;
+}
+
+.profileData label {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.profileData h5 {
+    font-size: 15px;
+    color: #898989;
+    margin: 3px 0 0;
+}
+
+.profileLeft ul {
+    padding: 0;
+    margin: 0;
+}
+
+.profileLeft ul li {
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.profileLeft ul li span {
+    width: 160px;
+}
+
+.profileRight .formGroup label {
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.profileRight .formGroup input {
+    background-color: transparent !important;
+    border: 0;
+    font-size: 14px;
+    color: #898989 !important;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc61;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    background: transparent !important;
+    outline: none;
+}
+
+.profileRight .formGroup {
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.profileRight .formGroup .changePassword {
+    position: absolute;
+    right: 0;
+    border: 1px solid #03FE9D;
+    top: 8px;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+.secure {
+    background: #000000;
+    padding: 20px 25px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secure h6 {
+    color: #fff;
+    margin: 0;
+}
+
+.secure a {
+    background: #03FE9D;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 9px 23px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.input {
+    border: 1px solid #4F4F4F;
+    width: 100%;
+    background: transparent;
+    border-radius: 100px;
+    height: 55px;
+    font-weight: 400;
+    padding: 0 21px;
+    font-size: 18px;
+    color: #9A9AB0;
+    outline: none;
+}
+
+.modal-content {
+  background-color: #0D0D0D !important;
+  padding: 40px 20px;
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+.InputState {
+    background-color: transparent !important;
+    border: 0;
+    font-size: 14px;
+    color: #898989 !important;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc61;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    background: transparent !important;
+    outline: none;
+    height: 55px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.sidebar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.sidebar ul li a img {
+    margin-right: 0px;
+}
+
+.sidebar ul li.active a {
+    background: #03FE9D;
+    color: #000;
+    font-weight: 500;
+}
+
+.sidebar ul li a span {
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    background: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.top-logo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.logout {
+    margin-top: 50px;
+}
+.ProfileLeft {
+    background: #000;
+    padding: 32px 20px;
+    border-radius: 10px;
+}
+.userPack img {
+    max-width: 72px;
+    max-height: 72px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin: 0 auto 11px;
+    display: table;
+    min-width: 72px;
+}
+.userPack h5 {
+    font-size: 19px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.WallLeft h5 {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+}
+.userPack h6 {
+    font-size: 14px;
+    color: #898989;
+    text-align: center;
+}
+.WalletBal {
+    background: #1E7EC3;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 23px 0 40px;
+}
+.WallLeft h4 {
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+.ProfileRight {
+    background: #101111;
+    padding: 34px;
+    border-radius: 10px;
+}
+.WalletBal span {
+    font-size: 13px;
+    background: #00FF9D;
+    padding: 9px 12px;
+    font-weight: 500;
+    border-radius: 100px;
+}
+/*--table.css--*/
+
+
+.tableData h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.tableData table tr th {
+    background: #1A1D1E;
+    padding: 16px 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tableData table {
+    width: 100%;
+}
+
+.tableData table tr td {
+    padding: 16px 6px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 1px solid #ffffff1a;
+}
+
+.tableData table tr td img {
+    margin-right: 5px;
+}
+
+.tableData table tr td label {
+    color: #A1A1A1;
+    font-size: 12px;
+}
+
+.tableData table tr td.green span {
+    color: #fff;
+    border: 1px solid #2BC155;
+    padding: 6px 9px;
+    border-radius: 20px;
+    background: #2BC155;
+}
+
+.tableData table tr td.red span {
+    color: #F92C2C;
+    border: 1px solid #F92C2C;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* .tableData table span {
+    border: 1px solid #212325;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.tableData table tr td span img {
+    margin: 0;
+}
+.ProfileRight h5 {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+}
+.topFilter ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.topDesc ul li  span {
+    font-size: 16px;
+    color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    padding: 11px 22px;
+    border-radius: 100px;
+}
+.topFilter ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+.topFilter ul li span {
+    font-size: 16px;
+    color: #96A5B8;
+    padding-right: 10px;
+}
+.topFilter ul li select {
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    padding-right: 4px;
+}
+.topFilter ul li select {
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    padding-right: 4px;
+    outline: none;
+}
+.topFilter {
+    padding-bottom: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.topFilter input {
+    height: 50px;
+    width: auto;
+    border-radius: 100px;
+    padding: 0 20px;
+    background: #151718;
+    border: 0;
+    padding-left: 25px;
+    font-style: italic;
+    outline: none;
+    color: #fff;
+}
+.topFilterleft
+{
+    display: flex;
+}
+.topFilterleft button {
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    color: #E1E1E1;
+    font-size: 13px;
+    padding: 9px 16px;
+    margin-right: 9px;
+}
+.topFilterleft button.active
+{
+ background: #E1E1E1;
+ color: #000;   
+}
+.btnDash {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.rateDas p {
+    color: #B6B7BC;
+    font-size: 14px;
+    margin: 12px 0 5px;
+}
+.rateDas h6 {
+    font-size: 29px;
+    color: #fff;
+    margin: 0;
+}
+.btnDash span {
+    font-size: 15px;
+    background: #03FE9D;
+    padding: 8px 13px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+h4.hgAct {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}       
+.hgAct a{
+    color: #fff;    
+}
+.topDesc ul {
+    border-top: 1px solid #343535;
+    border-bottom: 1px solid #343535;
+    padding: 35px 0px;
+    margin: 28px 0;
+    display: flex;
+    align-items: center;
+}
+.style_topDesc__TuJK7 ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.style_topDesc__TuJK7 ul li  span {
+    font-size: 16px;
+    color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    padding: 11px 22px;
+    border-radius: 100px;
+}
+.leftPurchasesim {
+    background: #000;
+    border: 1px solid #2799E0B8;
+    border-radius: 17px;
+    padding: 25px;
+}
+.tophed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #ffffff2b;
+}
+.tophed h5 {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.tophed h5 span {
+    width: 100%;
+    display: table;
+    font-size: 14px;
+}
+.leftPurchasesim h4 {
+    font-size: 24px;
+    color: #fff;
+    margin: 21px 0;
+}
+element.style {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+.leftPurchasesim a {
+    background: #2EAFF7;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 17px 0;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+.rightPurchasesim h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.rightPurchasesim {
+    padding-left: 30px;
+}
+.rightPurchasesim p {
+    margin: 0;
+    border: 0;
+    font-size: 15px;
+    color: #B6B6B6;
+    padding-bottom: 19px;
+}
+.topDesc ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+@media (max-width:767px)
+{
+    .ProfileRight {
+        padding: 17px;
+        margin-top: 15px;
+    }
+    .ProfileRight h5 {
+        padding-bottom: 10px;
+        margin-bottom: 9px;
+    }
+    .tableData{
+        overflow-x: auto;
+    }
+    .tableData table {
+        width: 230%;
+    }
+    .ProfileRight {
+        padding: 0;
+    }
+}

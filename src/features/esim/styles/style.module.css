@@ -1,0 +1,903 @@
+.PackHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.esimBannerOuter {
+  background: #1c2b35;
+  padding: 144px 80px;
+  position: relative;
+  border-radius: 10px;
+  background-image: url(../../../assets/images/esimbk.png);
+  background-size: cover;
+}
+.couponText {
+  color: #fff;
+}
+.FirtPack {
+    background: #1C2B35;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 19px;
+    margin: 0 8px 0;
+    
+  }
+  .PackHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .PackHeadLeft, .PackHeadRight {
+    margin-bottom: 8px;
+  }
+  
+  
+  .PackHeadLeft h4 {
+    font-size: 15px;
+    color: #ffff;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 145px;
+    white-space: nowrap;
+  }
+  
+  
+  .PackHeadLeft p {
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  }
+  .buySimBtn {
+    /* background-image: linear-gradient(to right, #1C77BC, #03FE9D); */
+    background: #1ffe9d;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    display: table;
+    text-align: center;
+    border-radius: 4px;
+    padding: 11px 0;
+    color: #000;
+    margin-top: 29px;
+      cursor: pointer;
+    }
+    .PackHeadLeft, .PackHeadRight {
+        margin-bottom: 8px;
+      }
+      .PackHeadRight span {
+        font-size: 15px;
+        background: #FFC700;
+        border-radius: 100px;
+        font-weight: 600;
+        padding: 9px 15px;
+        }
+
+.esimBannerOuter h4 {
+  font-size: 49px;
+  color: #fff;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.esimBannerOuter .formGoup,
+.beachSeactionleft .formGoup {
+  position: relative;
+  max-width: 520px;
+}
+
+.esimBannerOuter .formGoup input,
+.beachSeactionleft .formGoup input {
+  background: #000;
+  padding: 0 17px;
+  border: 0;
+  height: 50px;
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 20px;
+}
+
+.esimBannerOuter .formGoup button,
+.beachSeactionleft .formGoup button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #03fe9d;
+  border: 0;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  padding: 0 23px;
+  font-weight: 600;
+}
+
+.esimBannerOuter::before {
+  background-image: url(../../../assets/images/esimapp.png);
+  position: absolute;
+  right: 70px;
+  bottom: 0;
+  width: 450px;
+  height: 440px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.esimFilter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 50px 0 30px;
+}
+
+.esimFilter .formGroup {
+  border: 1px solid #5c5c5c;
+  background: transparent;
+  color: #5c5c5c;
+  height: 44px;
+  border-radius: 100px;
+  padding: 0 15px;
+  margin-left: 13px;
+}
+
+.esimFilter select {
+  border: 0;
+  background: transparent;
+  color: #5c5c5c;
+  height: 44px;
+  border-radius: 100px;
+  padding: 0 3px;
+}
+
+.esimFilter .formGroup:nth-child(2) {
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.esimFilter .formGroup span {
+  position: relative;
+  top: -3px;
+}
+
+.esimBlogs ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination ul {
+  padding: 0;
+  margin: 12px 0 20px;
+}
+
+.pagination ul a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  position: relative;
+}
+
+.pagination ul a.active {
+  opacity: 0.5;
+}
+
+.pagination ul a::before {
+  width: 2px;
+  height: 20px;
+  background: #fff;
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 1px;
+  transform: rotate(26deg);
+}
+
+.pagination ul a:first-child::before {
+  opacity: 0;
+}
+
+section.beachSeaction {
+  background-image: url(../../../assets/images/beach.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+}
+
+.beachSeactionleft h5 {
+  font-size: 45px;
+  color: #fff;
+}
+
+.beachSeactionleft p {
+  font-size: 16px;
+  color: #fff;
+}
+
+section.partners {
+  padding: 70px 0;
+  text-align: center;
+}
+
+section.partners p {
+  color: #fff;
+  margin: 0;
+}
+
+section.partners ul {
+  padding: 0;
+  margin: 80px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.partners ul li {
+  padding: 0 15px;
+  align-items: center;
+  display: flex;
+}
+section.partners ul li img {
+  max-height: 50px;
+  object-fit: cover;
+}
+.noSims {
+  color: "white";
+  text-align: "center";
+}
+section.newEsim {
+  padding-bottom: 70px;
+}
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 0px;
+}
+.esminFilter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 50px 0 54px;
+}
+.esminFilter .FormGroup input {
+  background: #1C2B35;
+  padding: 13px 16px;
+  border-radius: 49px;
+  font-size: 14px;
+  min-width: 402px;
+  border: 1px solid #5C5C5C;
+}
+.esimBlogsfl {
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+}
+.esimBlogsfl .formGroup {
+  position: relative;
+}
+
+
+.franceBox h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 46px 0 8px;
+  max-width: 120px;
+  min-height: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+  height: 1.2em;
+  white-space: nowrap;
+}
+.franceBox, .franceBoxcount {
+  background: #19272F;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  margin: 8px 0;
+}
+.franceBox img.taj, .franceBoxcount img.taj {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.franceBoxcount h4
+{
+  color: #fff;
+  font-size: 18px;
+  margin: 0px 0 55px;
+  max-width: 120px;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+}
+/* .esimBlogsfl .formGroup select.countySelect {
+  background: #fff;
+  border-radius: 100px;
+  padding: 11px 31px;
+  border: 0;
+  padding-left: 46px;
+  color: #000;
+} */
+.esimBlogsfl .formGroup::before {
+  position: absolute;
+  right: 12px;
+  top: 18px;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #fff;
+  content: "";
+  opacity: 0.7;
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(45deg);
+}
+span.filterSpan {
+  background: transparent;
+  border-radius: 100px;
+  padding: 11px 31px;
+  border: 1px solid #5C5C5C;
+  color: #9E9E9E;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.esimBlogsfl .formGroup select{
+  background: transparent;
+  border-radius: 100px;
+  padding: 11px 31px;
+  border: 1px solid #5C5C5C;
+  padding-left: 18px;
+  color: #9E9E9E;
+  white-space: nowrap;
+  width: 210px;
+  text-overflow: ellipsis;
+}
+.esimBlogsfl .formGroup span {
+  position: absolute;
+  left: 15px;
+  top: 11px;
+}
+.esminFilter .FormGroup button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #1ffe9d;
+  border: 0;
+  color: #000;
+  border-radius: 0 50px 50px 0;
+  padding: 12px 28px;
+}
+.esminFilter .FormGroup {
+  position: relative;
+  padding-right: 19px;
+}
+.esimBlogsfl ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.esimBlogsfl ul li {
+  list-style: none;
+  margin: 0 9px;
+  cursor: pointer;
+}
+.esimBlogsfl ul li span {
+  padding: 10px 40px;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+.esimBlogsfl ul li.active span {
+  background: #1ffe9d;
+  font-weight: 600;
+}
+.esimBlogsfl ul li.active span::before {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 13px solid #1ffe9d;
+  position: absolute;
+  content: "";
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.packColor {
+  background: #1c2b35;
+  padding: 36px;
+  border-radius: 14px;
+}
+section.packlist {
+  margin: 41px 0 0;
+}
+.packColor h3 {
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Bw-Gradual-medium';
+}
+.packColor h3 a {
+  color: #FF0000;
+  font-size: 16px;
+}
+.packListBox {
+  margin-top: 28px;
+  margin-bottom: 34px;
+}
+.packListBox h4 {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.packListBox ul {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 10px; 
+}
+.packListBox ul .active span {
+  background: #1C77BC;
+  color: #fff;
+  border-color: #1C77BC;
+}
+.packListBox ul li span {
+  border: 1px solid #AFAFAF;
+  border-radius: 100px;
+  color: #AFAFAF;
+  font-size: 15px;
+  padding: 10px 17px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  min-width: 100px;
+  text-align: center;
+  justify-content: center;
+}
+.PacageOptioOuter, .EnterDevice, .oferOuter {
+  background: #1A2228;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 0px;
+}
+.PacageOptioOuter h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+.PacageOptioOuter h4 a {
+  color: #FF0000;
+  font-size: 16px;
+}
+.EnterDevice p {
+  color: #fff;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 120px;
+  position: relative;
+  margin: 0;
+}
+.EnterDevice p input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background: #03fe9d; */
+}
+.EnterDevice .FromGroup {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.EnterDevice .FromGroup button {
+  height: 43px;
+  padding: 0 60px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-image: linear-gradient(to right, #1D7ABF, #2EAFF7);
+  color: #fff;
+}
+.EnterDevice .FromGroup input
+{
+  width: 100%;
+  height: 43px;
+  background: #000;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 16px;
+  font-size: 14px;
+
+}
+.EnterDevice p span {
+  font-weight: 600;
+  cursor: pointer;
+  color: #03fe9d;
+}
+.SelectSim h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.PacageOptioOuter h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  margin: 24px  0 24px;
+}
+.SelectSim h6, .Quantity h6 {
+  color: #fff;
+  opacity: 0.6;
+  margin: 0 0 20px;
+}
+.SelectSim ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.SelectSim {
+  margin-bottom: 29px;
+}
+.quaOuter {
+  border: 1px solid #5C5C5C;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quaOuter label {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+.count h5 span {
+  color: #929FA5;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: line-through;
+  padding-right: 16px;
+}
+.count h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}   
+.inputCount {
+  background: #03fe9d;
+  width: auto;
+  border-radius: 10px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  padding: 6px 18px;
+  font-size: 15px;
+  border: 0;
+  text-align: center;
+  justify-content: center;
+  min-height: 52px;
+}
+.inputCount span {
+  font-size: 27px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.inputCount input {
+  width: 35px;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: #000;
+}
+.SelectSim ul li {
+  list-style: none;
+}
+.SelectSim ul li span {
+  border: 1px solid #5C5C5C;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #9E9E9E;
+  padding: 8px 13px;
+  display: inline-block;
+  cursor: pointer;
+}
+.SelectSim ul li.active span {
+  background: #03FE9D;
+  color: #000;
+  /* font-weight: 600; */
+  border-color: #03FE9D;
+}
+.leftcheckoutable h6 {
+  font-size: 18px;
+  padding: 20px 30px;
+}
+span.changePlan {
+  color: #03fe9d;
+  cursor: pointer;
+}
+
+.leftcheckoutable table {
+  width: 100%;
+}
+
+.leftcheckoutable table tr th {
+  background: #000;
+  font-size: 12px;
+  color: #BDBDBD;
+  font-weight: 300;
+  padding: 10px 30px;
+}
+
+.leftcheckoutable table tr td {
+  padding: 14px 30px;
+  border-bottom: 1px solid #ffffff17;
+  color: #fff;
+  font-size: 14px;
+}
+
+.itmenImage {
+  display: flex;
+  align-items: center;
+}
+
+.itmenImage h5 {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.itmenImage label {
+  color: #B3B3B3;
+  font-size: 12px;
+}
+
+.itmenImage span {
+  margin-right: 7px;
+}
+
+@media (max-width: 1200px) {
+  section.partners ul li {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  section.partners ul li img {
+    max-width: 112px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  section.partners ul li {
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.partners ul li img {
+    max-width: 110px;
+  }
+
+  section.partners ul {
+    margin: 40px 0 0;
+  }
+
+  .esimBannerOuter::before {
+    width: 180px;
+    height: 170px;
+  }
+
+  section.beachSeaction {
+    padding: 70px 0;
+  }
+
+  .esimBannerOuter {
+    padding: 60px 30px;
+  }
+
+  .esimBannerOuter h4 {
+    font-size: 39px;
+  }
+
+  section.partners ul {
+    flex-wrap: wrap;
+  }
+
+  .beachSeactionleft h5 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.partners ul {
+    flex-wrap: wrap;
+  }
+  .PacageOptioOuter h4 a {
+    font-size: 14px;
+}
+.EnterDevice p {
+  padding-right: 0px;
+}
+.SelectSim ul li span {
+  font-size: 13px;
+  padding: 6px 6px;
+}
+.quaOuter{
+  padding: 9px 10px;
+  flex-wrap: wrap;
+}
+.inputCount {
+  min-height: 43px;
+}
+.inputCount span {
+  font-size: 20px;
+  padding: 0 6px;
+}
+.count h5, .quaOuter label {
+  font-size: 14px;
+}
+.SelectSim h6 {
+  font-size: 13px;
+}
+.SelectSim ul li span {
+  font-size: 13px;
+  padding: 7px 10px;
+}
+  .PacageOptioOuter h4 {
+    font-size: 19px;
+    padding-right: 40px;
+}
+  .PacageOptioOuter, .EnterDevice, .oferOuter {
+    border-radius: 20px 20px 0 0;
+    padding: 17px;
+}
+  .esminFilter {
+    margin: 25px 0 25px;
+}
+.esminFilter .FormGroup {
+  padding-right: 0;
+  margin-bottom: 9px;
+}
+.esimBlogsfl {
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.esimBlogsfl .formGroup {
+  position: relative;
+  width: 100%;
+}
+.esimBlogsfl .formGroup select {
+  width: 100%;
+}
+span.filterSpan {
+  display: none;
+}
+.esimBlogsfl .formGroup:nth-child(2) {
+  display: none;
+}
+  section.partners ul li {
+    padding: 0 14px;
+    width: 33%;
+    margin: 10px 0;
+  }
+  span.filterSpan {
+    width: 100%;
+}
+  section.partners ul li img {
+    width: 100%;
+  }
+  section.newEsim {
+    padding-bottom: 30px;
+}
+  .esimBannerOuter h4 {
+    font-size: 26px;
+    color: #fff;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .esimBannerOuter::before {
+    width: 180px;
+    height: 170px;
+  }
+
+  .esimBannerOuter .formGoup input,
+  .beachSeactionleft .formGoup input {
+    height: 46px;
+  }
+
+  .sifmList {
+    padding-bottom: 20px;
+  }
+
+  section.beachSeaction {
+    padding: 31px 0;
+  }
+
+  .beachSeactionleft h5 {
+    font-size: 28px;
+    color: #fff;
+  }
+
+  section.partners {
+    padding: 31px 0;
+  }
+
+  section.partners ul {
+    margin: 10px 0 0;
+  }
+
+  .esimFilter {
+    padding: 22px 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .esimFilter .formGroup {
+    width: 100%;
+    margin: 6px 0;
+  }
+
+  .esimBannerOuter {
+    padding: 26px 16px 170px;
+  }
+  .esimFilter {
+    overflow: hidden;
+  }
+  .esminFilter {
+    flex-direction: column;
+  }
+  .esimBlogsfl ul li span {
+    padding: 10px 23px;
+    font-size: 14px;
+  }
+  .esminFilter .FormGroup input {
+    min-width: 100%;
+    width: 100%;
+  }
+  .esminFilter .FormGroup {
+    width: 100%;
+    order: 1;
+  }
+  .esimBlogsfl {
+    order: 2;
+    width: 100%;
+  }
+  .esimBlogsfl ul {
+    margin-top: 30px;
+  }
+}
+.notFount {
+  color: #fff;
+  text-align: center;
+}

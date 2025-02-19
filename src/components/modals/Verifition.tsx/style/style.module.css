@@ -1,0 +1,375 @@
+.loginPage {
+    margin: 0;
+    background: #121314;
+}
+.loginRight .form-group p {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.loginRight h4 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.loginRight h4 img {
+    margin-left: 10px;
+    max-width: 160px;
+}
+
+.loginRight .form-group label {
+    font-size: 16px;
+    width: 100%;
+    color: #CBCBCB;
+    margin-bottom: 3px;
+}
+
+.loginRight .form-group input[type="text"],
+.loginRight .form-group input[type="password"],
+.loginRight .form-group input[type="number"] {
+    border: 1px solid #4F4F4F;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    height: 55px;
+    font-weight: 400;
+    padding: 0 21px;
+    font-size: 16px;
+    color: #9A9AB0;
+    outline: none;
+}
+
+.loginRight .form-group {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.loginRight .form-group span {
+    position: absolute;
+    right: 19px;
+    bottom: 15px;
+}
+
+.loginRight .form-group input[type="checkbox"] {
+    border: 1px solid #4F4F4F;
+    background-color: #C9C9C9;
+
+}
+
+.loginRight .form-group label.remeber {
+    font-size: 12px;
+    color: #B8B8B8;
+    width: auto;
+}
+
+.loginRight .form-group a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.loginRight .form-group input[type="submit"] {
+    background-image: linear-gradient(to right, #1C77BC, #03FE9D);
+    background: #03FE9D;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 19px;
+    color: #000;
+}
+.loginRight .form-group input[type="checkbox"]:checked {
+    border: 1px solid #1ffe9d !important;
+    background-color: #1ffe9d !important;
+}
+
+.login span {
+    margin: 0 auto;
+    display: table;
+    font-size: 13px;
+    color: #C8C8C8;
+    background: #121414;
+    position: relative;
+    z-index: 1;
+    padding: 0 14px;
+}
+
+.login hr {
+    margin: 0;
+    opacity: 0.3;
+    border-color: #DBDBDB;
+    margin: -10px 0 0;
+}
+
+.login {
+    padding: 5px 0 0;
+}
+
+.social ul {
+    padding: 0;
+    margin: 36px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social ul li {
+    list-style: none;
+    width: 31.33%;
+    text-align: center;
+    margin: 0 7px;
+}
+
+.social ul li a {
+    border: 1px solid #565656;
+    height: 44px;
+    padding: 12px 0;
+    width: 100%;
+    display: table;
+    border-radius: 100px;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social ul li a img {
+    margin-right: 6px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.uploadPhoto {
+    width: 112px;
+    height: 112px;
+    border: 1px dashed #9A9AB0;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9A9AB0;
+    background: #121414;
+    z-index: 1;
+    position: relative;
+    pointer-events: none;
+}
+
+.uploadPhoto input {
+    font-size: 0;
+    border: 0;
+    padding: 0;
+}
+
+.PhotoUload h6 {
+    font-size: 11px;
+    color: #6C6C6C;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 8px 0 0;
+}
+
+.PhotoUload input[type="file"] {
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    font-size: 0;
+    border: 0;
+    background: transparent;
+    padding: 50px;
+}
+
+.topLogin {
+    position: absolute;
+    top: 0;
+}
+
+.loginrelate {
+    position: relative;
+}
+
+.topLogin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 26px 40px;
+}
+
+.topLogin p {
+    font-size: 14px;
+    color: #C7C7C7CC;
+    margin: 0;
+}
+
+.topLogin p a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.topLogin span a {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-left: auto;
+    float: right;
+}
+.topLogin span a:hover
+{
+    background: #1ffe9d;
+    color: #000;
+    border-color: #1ffe9d; 
+}
+.resendOTP {
+    color: rgb(31 254 157);
+    margin-bottom: 0px;
+}
+.editIamge {
+    width: 136px;
+    height: 116px;
+    margin: 0 auto 32px;
+    position: relative;
+}
+
+.editIamge label {
+    color: #fff;
+    font-size: 12px;
+}
+
+.editIamge input {
+    font-size: 0;
+    border: 0;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.changePasswordModal h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 23px;
+}
+
+.changePasswordModal form .formGroup label {
+    font-size: 14px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.changePasswordModal form .formGroup input {
+    height: 50px;
+    width: 100%;
+    border-radius: 100px;
+    padding: 0 19px;
+    border: 1px solid #6B6B6B;
+    background: #000;
+    font-size: 14px;
+    outline: none;
+    color: white;
+}
+
+.changePasswordModal form .formGroup {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.changePasswordModal form input[type="submit"] {
+    background-image: linear-gradient(to right, #1C77BC , #03FE9D);
+    background: #03FE9D;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 19px;
+    color: #000;
+}
+
+.changePasswordModal form .formGroup span img {
+    max-width: 19px;
+    filter: brightness(0) invert(1);
+}
+
+.changePasswordModal form .formGroup span {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.PrfileIamge {
+    width: 104px;
+    height: 106px;
+    display: flex;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    pointer-events: none;
+}
+.changePasswordModal input[type="text"] {
+    width: 63px !important;
+    height: 63px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #dddddd91;
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+}
+.sentOTP
+{
+    text-align: center;
+    margin-top: 21px;
+}
+.sentOTP p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.5;
+}
+p.resendOTP, .resendOTP a{
+    color: #1D9DD9;
+    opacity: 1;
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,205 @@
+.ProfileRight {
+    background: #101111;
+    padding: 34px;
+    border-radius: 10px;
+}
+.UsageHeaqd h5 {
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid #dcdcdc59;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+.UsageBorder ul li {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.UsageBorder ul li span img {
+    margin-right: 10px;
+}
+.UsageBorder ul li div span {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+}
+.UsageBorder ul li div h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 2px 0 0;
+}
+.usageRight {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 28px 0;
+}
+.uagePag {
+    border-bottom: 1px solid #dcdcdc30;
+    padding: 0 28px 32px;
+}
+.uagePag h6 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 14px;
+}
+.usagePlan ul {
+    display: flex;
+    align-items: center;
+    margin: 0 -7px;
+}
+.usagePlan ul li {
+    background: #000;
+    border-radius: 10px;
+    margin: 0 4px;
+    padding: 7px;
+    width: 33.33%;
+}
+.usagePlan ul li span {
+    color: #fff;
+    width: 100%;
+    display: table;
+    font-size: 10px;
+    font-weight: 600;
+}
+.usagePlan ul li label {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0 17px;
+}
+.usagePlan ul li p {
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 0 2px;
+    color: #fff;
+}
+span.expireUsge {
+    color: #fff;
+    /* color : #FF0000 */
+    font-size: 12px;
+    border: 1px dashed;
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    background: #e90000e8;
+    border-radius: 5px;
+}
+
+span.activeExpireUsge {
+    /* color: #54d68a; */
+    color: #fff;
+    font-size: 12px;
+    border: 1px dashed;
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    background: #087c04;
+    border-radius: 5px;
+}
+.usagePlan button {
+    background: #1C79BE;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    height: 48px;
+    border-radius: 8px;
+}
+.dataHistory {
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(59,122,217,1) 0%, rgba(93,196,253,1) 100%);
+}
+.dataHistory h4 {
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #FFFFFF33;
+}
+.dataHistory ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF33;
+    padding: 13px 16px 14px;
+}
+.dataHistory ul li:last-child {
+    border-bottom: 0;
+}
+.dataHistory ul li span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.dataHistory ul li span img{
+    margin-right: 3px;
+}
+.dataHistory ul li label {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.uageSlider {
+    padding: 30px 28px 32px;
+}
+.uageSlider h6 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.swapInner .dataHistory {
+    background: #293E4D;
+    margin: 0 7px;
+}
+@media (max-width:991px)
+{
+  .ProfileRight {
+    padding: 24px;
+}
+.col-md-4 {
+  width: 100%;
+}
+.col-md-8, .col-md-6 {
+  width: 100%;
+}
+.UsageHeaqd h5 {
+  margin-bottom: 20px;
+}
+.usagePlan {
+  padding-bottom: 25px;
+}
+}
+@media (max-width:767px)
+{
+  .ProfileRight {
+    padding: 18px;
+    margin-top: 20px;
+}
+.uagePag{
+  padding: 0 17px 22px;
+}
+.usagePlan ul li label {
+  font-size: 15px;
+}
+.uageSlider {
+  padding: 20px 9px 2px;
+}
+.uageSlider h6 {
+  font-size: 17px;
+  padding: 0 8px;
+}
+}

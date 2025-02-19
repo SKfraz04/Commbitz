@@ -1,0 +1,42 @@
+.beachSeaction {
+    background-image: url(../../assets/images/beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}
+
+.beachSeactionleft h5 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.beachSeactionleft p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.formGoup {
+    max-width: 520px;
+    position: relative;
+}
+
+.formGoup input {
+    background: #000;
+    border: 0;
+    border-radius: 7px;
+    height: 50px;
+    padding: 0 17px 0 20px;
+    width: 100%;
+}
+
+.formGoup button {
+    background: #03fe9d;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    height: 100%;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

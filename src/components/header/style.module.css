@@ -1,0 +1,235 @@
+.topHead {
+    background: #03FE9D;
+    padding: 6px 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+.wtsApp {
+    text-align: right;
+    position: relative;
+    top: 6px;
+}
+.language img {
+    max-width: 102px;
+}
+.wtsApp p, .wtsApp p a {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    /* font-family: 'Bw-Gradual-medium'; */
+    font-weight: 700;
+    font-style: italic;
+}
+.language {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.language .formGroup {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+.language .formGroup img
+{
+    margin-right: 0px;
+}
+.language label {
+    font-size: 13px;
+    color: #000;
+    margin: 0;
+}
+.language .formGroup select {
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 13px;
+    padding-right: 3px;
+}
+.menuHead {
+    background: #000000;
+    padding: 1px 0 3px;
+    padding-top: 53px;
+}
+.menuHead img
+{
+    max-width: 190px;
+    object-fit: contain;
+}
+.menuHead ul.navbar li a {
+    font-size: 15px;
+    color: #fff;
+    padding: 0 !important;
+}
+.menuHead ul.navbar li {
+    margin-left: 40px;
+}
+.menuHead ul.navbar {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+.loginBtn a {
+    background: #03FE9D;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 11px 17px;
+    border-radius: 7px;
+    margin-left: 41px;
+    position: relative;
+    font-weight: 500;
+}
+/* .loginBtn a::before {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    content: "";
+    border-radius: 10px;
+    background: #000;
+    left: 25px;
+    top: 20px;
+} */
+.menuHead ul.navbar li.active a
+{
+    border-bottom: 2px solid;
+}
+.language .formGroup div {
+    background: transparent;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #000;
+    outline: none !important;
+    min-height: auto;
+}
+.language .formGroup div svg
+{
+    display: none;
+}
+
+.language .formGroup div  span
+{
+    display: none;
+}
+@media (max-width:1400px)
+{
+
+    .loginBtn a {
+        font-size: 13px;
+        padding: 13px 15px;
+        margin-left: 22px;
+    }
+    .loginBtn a::before
+    {
+opacity: 0;
+    }
+    .menuHead ul.navbar li {
+        margin-left: 27px;
+    }
+}
+@media (max-width:1199px)
+{
+
+    .menuHead ul.navbar li {
+        margin-left: 28px;
+    }
+}
+@media (max-width:991px)
+{
+    .loginBtn a {
+        font-size: 13px;
+        padding: 9px 8px;
+        margin-left: 0;
+        position: absolute;
+        top: 2px;
+        right: 57px;
+    }
+    .language .formGroup select {
+      
+        font-size: 12px;
+        padding-right: 1px;
+    }
+    .language label {
+        font-size: 12px;
+    }
+    .language .formGroup {
+        margin-left: 10px;
+    }
+    .loginBtn a::before {
+        opacity: 0;
+    }
+    .esimBannerOuter {
+        padding: 30px 20px 170px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .wtsApp p {
+        text-align: left;
+    }
+    .menuHead ul.navbar {
+        flex-wrap: wrap;
+    }
+    .menuHead ul.navbar li {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px 21px;
+    }
+    .language .formGroup {
+        margin-left: 30px;
+    }
+    .topHead {
+        background: transparent;
+    }
+    .menuHead {
+        background: transparent;
+        padding-top: 0;
+    }
+    .loginBtn a {
+        display: none;
+    }
+    .topHead {
+        position: absolute;
+    padding: 0;
+    }
+    .language a {
+        background: #000;
+        color: #fff !important;
+        border-radius: 100px;
+        padding: 8px 10px;
+        display: none;
+    }
+    .language .formGroup {
+        margin-left: 5px;
+    }
+    .language .formGroup:last-child
+    {
+        /* margin-left: 0px;
+        display: none; */
+    }
+    .language .formGroup div {
+        color: #fff;
+        padding: 0;
+    }
+    .language .formGroup {
+        background: #000;
+        color: #fff !important;
+        border-radius: 100px;
+        padding: 5px 10px;
+    }
+    .language .formGroup img {
+        filter: drop-shadow(0px 100px 0 #fff);
+        transform: translateY(-100px);
+        margin-right: 4px;
+    }
+    .menuHead ul.navbar {
+        display: none;
+    }
+    
+}

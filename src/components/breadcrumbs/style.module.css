@@ -1,0 +1,40 @@
+.pagination ul {
+    padding: 0;
+    margin: 22px 0 30px;
+}
+
+.pagination ul a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+
+.pagination ul a.active {
+    opacity: 0.5;
+}
+
+.pagination ul a::before {
+    width: 2px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 1px;
+    transform: rotate(26deg);
+}
+
+.pagination ul a:first-child::before {
+    opacity: 0;
+}
+@media (max-width:767px)
+{
+    .pagination {
+        padding-top: 83px;
+      }
+      .pagination ul {
+        margin: 22px 0 20px;
+      }
+}

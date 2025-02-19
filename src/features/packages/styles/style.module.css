@@ -1,0 +1,130 @@
+.pagination ul {
+    padding: 0;
+    margin: 12px 0 20px;
+}
+.pagination ul a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+.pagination ul a.active {
+    opacity: 0.5;
+}
+.pagination ul a::before {
+    width: 2px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 1px;
+    transform: rotate(26deg);
+}
+.pagination ul a:first-child::before {
+    opacity: 0;
+}
+.PackegesHeadInnr {
+    background: #1A2228;
+    border: 1px dashed #1ffe9d;
+    border-radius: 10px;
+    padding: 34px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PackegesHeadInnr h4 {
+    font-size: 36px;
+    color: #fff;
+    max-width: 310px;
+}
+.PackegesHeadInnr h5 {
+    font-size: 22px;
+    color: #fff;
+}
+.PackegesHeadInnr span {
+    font-size: 13px;
+    background: #FFC700;
+    padding: 6px 13px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.topPackages h5 {
+    font-size: 18px;
+    color: #fff;
+}
+.topPackages {
+    margin-top: 40px;
+}
+.innerTopPacks {
+    background: #1b2229;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.innerTopPacks h6 {
+    font-size: 22px;
+    text-align: center;
+    color: #9F9F9F;
+    margin: 0;
+    border-bottom: 1px solid #9F9F9F;
+    padding: 19px 0;
+}
+.innerTopPacks:hover h6, .innerTopPacks:hover  ul li
+{
+    color: #fff;
+}
+.innerTopPacks ul li {
+    display: flex;
+    justify-content: space-between;
+    color: #9F9F9F;
+    font-size: 14px;
+    border-bottom: 1px solid #ffffff0a;
+    padding: 13px 27px;
+}
+.innerTopPacks ul li:last-child {
+  border: 0;
+}
+.innerTopPacks ul li img {
+    margin-right: 6px;
+}
+.InfoDetails h5 {
+    font-size: 18px;
+    color: #fff;
+}
+.InfoDetails {
+    padding: 22px 0 80px;
+}
+.InfoDetails ul {
+    background: #14222D;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+.innerTopPacks ul
+{
+    padding: 0;
+    margin: 0;
+}
+.InfoDetails ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 31px 20px;
+    border-bottom: 1px solid #ffffff12;
+}
+.InflLeft span {
+    font-size: 13px;
+    color: #848484;
+}
+.InflLeft h4 {
+    font-size: 14px;
+    color: #CACACA;
+    margin: 0;
+}
+.InflRight i {
+    color: #A5A5A5;
+}
+.innerTopPacks:hover {
+    background-image: linear-gradient(147deg, #3B7AD9, #03FE9D);
+}

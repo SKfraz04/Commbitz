@@ -1,0 +1,76 @@
+.pagination ul {
+    padding: 0;
+    margin: 12px 0 20px;
+}
+.pagination ul a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+}
+.pagination ul a.active {
+    opacity: 0.5;
+}
+.pagination ul a::before {
+    width: 2px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 1px;
+    transform: rotate(26deg);
+}
+.pagination ul a:first-child::before {
+    opacity: 0;
+}
+.paymentSucessInner {
+    background: #1A2228;
+    border-radius: 10px;
+    border: 1px dashed #1ffe9d;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0 60px;
+}
+.paymentSucessInner h4 {
+    font-size: 28px;
+    color: #fff;
+    margin: 17px 0 0;
+    font-weight: 500;
+}
+.paymentSucessInner p {
+    max-width: 728px;
+    color: #AEAEAE;
+    margin: 14px auto;
+    display: table;
+    font-weight: 400;
+    font-size: 14px;
+}
+.SuccBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SuccBtn a {
+    background-image: linear-gradient(to right, #2CA8EF , #03FE9D);
+    background: #03FE9D;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 7px;
+    min-width: 200px;
+    margin: 12px 10px;
+}
+@media (max-width:767px)
+{
+    .SuccBtn a {
+        padding: 12px 10px;
+        min-width: 160px;
+        margin: 12px 6px;
+        font-size: 14px;
+    }
+    .paymentSucessInner{
+        padding: 20px 14px;
+    }
+}

@@ -1,0 +1,113 @@
+.bassoDtailFoem {
+    background-image: url("../../../assets/images/basic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #03FE9D;
+    padding: 20px 20px;
+}
+.bassoDtailFoem form {
+    background: #000000;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    padding: 18px 30px;
+    border-radius: 20px;
+}
+.gormLogo img {
+    max-width: 118px;
+    margin: 0 auto;
+    display: table;
+}
+.bassoDtailFoem form h4 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin: 19px 0 0;
+    /* font-family: 'Bw-Gradual-bold'; */
+}
+.bassoDtailFoem form p {
+    color: #ffffff80;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin: 13px 0 22px;
+}
+.bassoDtailFoem .formGroup label {
+    color: #CBCBCB;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.formGroup input {
+    height: 43px;
+    border-radius: 12px;
+    border: 1px solid #464646;
+    background: transparent;
+    padding: 0 12px;
+    font-size: 15px;
+    width: 100%;
+    color: #fff;
+}
+.formGroup select {
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #464646;
+    background: transparent;
+    padding: 0 12px;
+    font-size: 15px;
+    width: 100%;
+    appearance: none;
+    color: #707070;
+}
+.bassoDtailFoem .formGroup
+{
+    margin-bottom: 12px;
+    position: relative;
+}
+.bassoDtailFoem .formGroup svg
+{
+    fill: #fff;
+    color: #fff;
+}
+.bassoDtailFoem .formGroup input[type="submit"] {
+    background: #03FE9D;
+    color: #000;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.bassoDtailFoem .formGroup span
+{
+    position: absolute;
+    top: 37px;
+    right: 15px;
+    pointer-events: none;
+
+}
+.phoneNumber input {
+    border: 1px solid #4F4F4F;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    height: 43px;
+    font-weight: 400;
+    padding: 0 21px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+@media (max-width:767px)
+{
+    .bassoDtailFoem form {
+        padding: 30px 20px;
+    }
+}

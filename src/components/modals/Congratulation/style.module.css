@@ -1,0 +1,10 @@
+.EsimModal {
+    padding: 10px;
+}
+.EsimModal .formGroup input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #ddd;
+    padding: 0 16px;
+    border-radius: 10px;
+}

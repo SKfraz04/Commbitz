@@ -1,0 +1,400 @@
+.footerMain {
+    padding: 80px 0 0;
+    background: #000;
+    position: relative;
+    background-image: url(../../assets//images//cco.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+ul.partner li {
+    overflow: hidden;
+}
+.footerMain h6 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    /* font-family: 'Bw-Gradual-medium'; */
+}
+ul.partner li a img {
+    filter: drop-shadow(0px 100px 0 #fff);
+    transform: translateY(-100px);
+}
+span.nextPage a {
+    width: 50px;
+    height: 50px;
+    background: #1ffe9d;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+span.nextPage a i
+{
+    color: #000;
+    font-size: 29px;
+}
+
+span.nextPage {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+}
+.ftLogo {
+    margin-bottom: 14px;
+}
+.ftLogo img {
+    max-width: 190px;
+}
+.footerInner p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 21px;
+}
+.Newsletter .formGroup span {
+    margin-top: 11px;
+    padding: 0;
+    color: #1ffe9d;
+    text-align: center;
+}
+.footerInner ul {
+    padding: 0;
+    margin: 0;
+}
+.footerInner ul li {
+    margin-bottom: 11px;
+    list-style: none;
+}
+.footerInner ul li img {
+    margin-right: 10px;
+    max-width: 20px;
+}
+.footerInner ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.copyright {
+    border-top: 1px solid #000;
+    margin-top: 40px;
+    padding: 23px 0;
+}
+.copyright ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.copyright ul p {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    margin-right: 13px;
+}
+.copyright ul li a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+.copyright ul li  {
+    margin-right: 20px;
+    position: relative;
+}
+.copyRight ul li {
+    margin: 0 16px;
+}
+.copyRight ul li::before {
+    opacity: 0 !important;
+}
+.copyright ul li::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 14px;
+    background: #fff;
+    opacity: 0.8;
+    right: -11px;
+    top: 6px;
+}
+.copyright ul li:last-child::before
+{
+opacity: 0;
+}
+.copyRight ul {
+    justify-content: flex-end;
+}
+.copyRight ul li {
+    margin-left: 0;
+}
+.copyRight ul li a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: black;
+}
+.Newsletter span {
+    /* font-family: 'Bw-Gradual-medium'; */
+    font-size: 15px;
+    margin-bottom: 8px;
+    display: table;
+    width: 100%;
+}
+.Newsletter .formGroup {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.Newsletter .formGroup input[type="text"] {
+    height: 41px;
+    background: #000;
+    border: 1px solid #1C2B35;
+    border-radius: 5px;
+    padding: 0 14px;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+}
+.footerInner {
+    color: #fff;
+}
+.Newsletter .formGroup input[type="submit"] {
+    font-size: 13px;
+    background: #1ffe9d;
+    color: #000;
+    position: absolute;
+    right: 0;
+    /* font-family: 'Bw-Gradual-medium'; */
+    top: 0;
+    padding: 0 13px;
+    border: 1px solid #000;
+    height: 41px;
+    border-radius: 0 5px 5px 0;
+}
+.chatSport {
+    position: fixed;
+    right: 25px;
+    bottom: 39px;
+    width: 430px;
+    z-index: 9;
+}
+span.chatSportbtn {
+    background: #03fe9d;
+    padding: 10px 17px;
+    border-radius: 100px;
+    font-weight: 500;
+    margin-left: auto;
+    float: right;
+    position: fixed;
+    bottom: 45px;
+    right: 25px;
+    cursor: pointer;
+}
+.chatSportbtndown
+{
+    color: #03fe9d; 
+    margin-left: auto;
+    float: right;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    font-size: 35px;
+}
+.chatBox {
+    background: #1C2B35;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: -58px;
+}
+.chatBoxHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #03FE9D;
+    padding: 15px 20px;
+}
+.leftchatBox {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.leftchatBox img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.leftchatBox h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.leftchatBox span {
+    font-size: 13px;
+    margin: 0;
+}
+.clietChat h5 {
+    background: #000;
+    font-size: 13px;
+    color: #fff;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+.userChat h5 {
+    background: #2880DA;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.5;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    float: right;
+}
+.jusNow img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.clietChat span {
+    color: #737376;
+    font-size: 13px;
+    padding-left: 45px;
+    font-weight: 500;
+}
+.chatFotetr .formGroup input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #a3a3a3;
+}
+.media {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.media span {
+    cursor: pointer;
+}
+.chatFotetr {
+    border-top: 1px solid #445850;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clietChat, .userChat {
+    margin: 10px 0;
+    width: 100%;
+    display: table;
+}
+.rightchatBox h6 {
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+    font-size: 16px;
+}
+.chatBody {
+    padding: 15px 20px;
+    max-height: 370px;
+    overflow-y: auto;
+}
+.jusNow {
+    display: flex;
+    align-items: flex-end;
+}
+@media (max-width:1400px)
+{
+    .chatBody {
+        max-height: 320px;
+    }
+}
+@media (max-width:991px)
+{
+    .Visa img {
+        width: 100%;
+    }
+    .footerMain h6 {
+        font-size: 17px;
+    }
+    .footerInner ul li a {
+        font-size: 12px;
+    }
+    .copyright ul p {
+        font-size: 12px;
+    }
+    .copyright ul li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .footerMain{
+        background: transparent;
+        padding: 0;
+    }
+    .clietChat h5, .userChat h5 {
+        font-size: 13px;
+        padding: 11px 15px;
+    }
+    .clietChat, .userChat {
+        margin: 7px 0;
+    }
+    .footerMain h6 {
+        font-size: 14px;
+    }
+    .chatBox {
+        top: -35px;
+    }
+    .leftchatBox h4 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .chatSport {
+        right: 13px;
+        bottom: 25px;
+        width: 100%;
+        max-width: 93%;
+    }
+    .footerInner, .copyright, .nextPage
+    {
+        display: none;
+    }
+    .footerMain h6 {
+        margin-bottom: 10px;
+        margin-top: 17px;
+    }
+    span.chatSportbtn{
+        padding: 7px 11px;
+        bottom: 16px;
+        right: 17px;
+        font-size: 14px;
+    }
+    span.chatSportbtn img {
+        max-width: 22px;
+    }
+    
+    .copyright ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerInner br
+    {
+        display: block;
+    }
+}

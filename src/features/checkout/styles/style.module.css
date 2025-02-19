@@ -1,0 +1,916 @@
+.checkoutpage h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 36px;
+}
+.PacageOptioOuter, .EnterDevice, .oferOuter, .coverageCountry {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+/* .leftcheckoutable {
+    background: #1A2228;
+    border-radius: 10px;
+} */
+.PackageOption
+{
+    padding-bottom: 60px;
+}
+.coverageCountry ul li span img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.packageDetails, .packageDetailsPoint {
+    background: #1A2228;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.packageDetails h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.packageDetails ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.packageDetailsPoint h4 {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.packageDetailsPoint ul {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-wrap: wrap;
+    margin: 20px 0 10px;
+}
+.packageDetailsPoint ul li span {
+    border: 1px solid #9E9E9E;
+    font-size: 13px;
+    color: #9E9E9E;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px 6px;
+}
+.usageOncept {
+    padding-top: 16px;
+}
+.usagedetailOuter .usagebox {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 9px 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.usageBody p {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: justify;
+}
+.packageDetails ul li:last-child {
+    border-top: 1px solid #E4E7E966;
+    padding-top: 17px;
+    margin-top: 15px;
+}
+.coverCountryOuter h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+.coverageCountry ul li {
+    width: 25%;
+    color: #ffffff7d;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.coverageCountry ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.coverageCountry ul li span{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.PacageOptioOuter, .EnterDevice, .oferOuter {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 16px;
+}
+.PacageOptioOuter h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+.PacageOptioOuter h4 a {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.EnterDevice h1{
+  font-size: 35px;
+   color: white;
+   margin-bottom: 19px;
+}
+.blurContainer{
+    --webkit-blur: blur(1.2px);
+    filter: blur(1.2px);
+    position: relative;
+}
+.EnterDevice p {
+    color: #fff;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 120px;
+    position: relative;
+    margin: 0;
+}
+.EnterDevice p input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background: #03fe9d; */
+}
+.EnterDevice .FromGroup {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.EnterDevice .FromGroup button {
+    height: 43px;
+    padding: 0 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to right, #1D7ABF, #2EAFF7);
+    color: #fff;
+}
+.EnterDevice .FromGroup input
+{
+    width: 100%;
+    height: 43px;
+    background: #000;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 14px;
+
+}
+.EnterDevice p span {
+    font-weight: 600;
+    cursor: pointer;
+    color: #03fe9d;
+}
+.SelectSim h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.PacageOptioOuter h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin: 24px  0 24px;
+}
+.SelectSim h6, .Quantity h6 {
+    color: #fff;
+    opacity: 0.6;
+    margin: 0 0 20px;
+}
+.SelectSim ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.SelectSim {
+    margin-bottom: 29px;
+}
+.quaOuter {
+    border: 1px solid #5C5C5C;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quaOuter label {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+.count h5 span {
+    color: #929FA5;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-right: 16px;
+}
+.count h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}   
+.inputCount {
+    background: #03fe9d;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    padding: 6px 18px;
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    justify-content: center;
+    min-height: 52px;
+}
+.inputCount span {
+    font-size: 27px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.inputCount input {
+    width: 35px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #000;
+}
+.SelectSim ul li {
+    list-style: none;
+}
+.SelectSim ul li span {
+    border: 1px solid #5C5C5C;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #9E9E9E;
+    padding: 8px 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+.SelectSim ul li.active span {
+    background: #03FE9D;
+    color: #000;
+    /* font-weight: 600; */
+    border-color: #03FE9D;
+}
+/* .leftcheckoutable h6 {
+    font-size: 18px;
+    padding: 20px 30px;
+} */
+span.changePlan {
+    color: #03fe9d;
+    cursor: pointer;
+}
+.leftcheckoutable {
+    padding-top: 22px;
+}
+
+.leftcheckoutable table {
+    width: 100%;
+}
+
+.leftcheckoutable table tr th {
+    background: #000;
+    font-size: 12px;
+    color: #BDBDBD;
+    font-weight: 300;
+    padding: 10px 30px;
+}
+
+.leftcheckoutable table tr td {
+    padding: 14px 30px;
+    border-bottom: 1px solid #ffffff17;
+    color: #fff;
+    font-size: 14px;
+}
+
+.itmenImage {
+    display: flex;
+    align-items: center;
+}
+
+.itmenImage h5 {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.itmenImage label {
+    color: #B3B3B3;
+    font-size: 12px;
+}
+
+.itmenImage span {
+    margin-right: 7px;
+}
+
+span.Noprice {
+    text-decoration: line-through;
+    color: #929FA5;
+}
+
+.pliceselect .gormGroup {
+    background: #03FE9D;
+    color: #000;
+    height: 38px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 0 11px;
+    min-width: 105px;
+}
+.pliceselect .gormGroup span
+{
+    color: #000;
+}
+.supportDesc {
+    padding: 26px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.supportDesc a {
+    background: #03FE9D;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: #000;
+    font-weight: 500;
+}
+.supportDesc ul li {
+    list-style: disc;
+    padding: 2px 0;
+    margin-left: 18px;
+}
+.supportDesc ul {
+    margin-bottom: 15px;
+}
+.suportHead h4 {
+    color: #fff;
+    font-size: 20px;
+    padding: 13px 26px 23px;
+    margin: 0;
+    border-bottom: 1px solid #515151;
+}
+.supportDesc h6 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 13px;
+}
+.supportDesc p, .supportDesc ul li {
+    color: #B8B8B8;
+    font-size: 15px;
+    font-weight: 500;
+}
+.supportDesc h5 {
+    color: #03FE9D;
+    font-size: 22px;
+}
+.pliceselect .gormGroup input {
+    background: transparent;
+    border: 0;
+    text-align: right;
+    width: auto;
+    width: 50px;
+}
+
+td.trash i {
+    color: red;
+}
+
+.retunShop {
+    padding: 25px 30px;
+}
+
+.retunShop button {
+    border: 1px solid #26B5E3;
+    background: transparent;
+    border-radius: 5px;
+    color: #26B5E3;
+    padding: 13px 20px;
+}
+
+.retunShop button i {
+    margin-right: 3px;
+}
+
+.chosepayment h6 {
+    margin-bottom: 22px;
+    font-size: 21px;
+}
+
+.chosepayment {
+    margin-top: 35px;
+}
+
+.chosepayment ul {
+    padding: 0;
+    margin: 0;
+}
+
+.chosepayment ul li {
+    background: #1b2229;
+    margin-bottom: 13px;
+    padding: 17px 22px;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chosepayment ul li img {
+    margin-right: 9px;
+}
+
+.chosepayment ul li span {
+    display: flex;
+    align-items: center;
+}
+
+.chosepayment ul li span p {
+    font-size: 10px;
+    margin: 0;
+    color: #a1a1a1;
+}
+
+.chosepayment ul li button {
+    background: #000;
+    color: #FFFFFF4D;
+    border: 1px solid #FFFFFF4D;
+    padding: 6px 14px;
+    border-radius: 4px;
+    border: 1px solid #1ffe9d;
+    color: #1ffe9d;
+}
+
+.chosepayment ul li button.active {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.checkoutpage {
+    padding: 0 0 50px;
+}
+
+.payemntSummery,
+.PromoCode {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 26px;
+}
+
+.payemntSummery ul {
+    padding: 0;
+    margin: 0;
+}
+
+.PromoCode p {
+    color: #fff;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.payemntSummery h6,
+.PromoCode h6 {
+    font-size: 18px;
+}
+
+.payemntSummery ul li {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 0;
+    font-size: 14px;
+}
+
+.payemntSummery ul li span {
+    color: #5F6C72;
+}
+
+.payemntSummery button {
+    background-image: linear-gradient(to right, #2CA8EF, #03FE9D);
+    background: #03FE9D;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.payemntSummery ul li.Total {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    margin-bottom: 23px;
+}
+
+.payemntSummery ul li.Total span {
+    color: #fff;
+}
+
+.PromoCode .formGroup {
+    display: flex;
+    align-items: center;
+    margin: 24px 0 27px;
+    position: relative;
+}
+
+.PromoCode .formGroup input {
+    background: #000;
+    border: 0;
+    border-radius: 100px;
+    padding: 12px 14px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.PromoCode .formGroup button {
+    background: #1ffe9d;
+    border: 0;
+    border-radius: 100px;
+    color: #000;
+    padding: 12px 23px;
+    margin-left: 10px;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.couponlist {
+    background: #000;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 10px 0 0;
+}
+
+.couponlisttop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.couponlisttop span {
+    background: #3B7AD9;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 11px 4px;
+    border-radius: 14px;
+}
+
+.couponlisttop a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.couponlist h5 {
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0 15px;
+}
+
+.couponlist p {
+    margin: 0;
+}
+
+.decrement,
+.increment,
+.trash {
+    cursor: pointer;
+}
+
+.PromoCode {
+    max-height: 361px;
+    overflow-y: auto;
+}
+.couponlisttop button {
+    background: #1ffe9d;
+    border-radius: 40px;
+    border: 0;
+    color: #000;
+    font-size: 13px;
+    padding: 4px 14px;
+}
+.Gpay{
+    height: 50px;
+}
+.applyPromo {
+    padding-top: 22px;
+}
+.applyPromo h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.applyPromo .formGroup {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.applyPromo .formGroup input {
+    width: 100%;
+    height: 43px;
+    background: #000;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 14px;
+}
+.applyPromo .formGroup button {
+    height: 43px;
+    padding: 0 22px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to right, #1D7ABF, #2EAFF7);
+    color: #fff;
+    width: auto;
+}
+.applyPromo p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.5;
+    margin: 11px 0 30px;
+}
+.offerWeProvide h4 {
+    font-size: 19px;
+    margin: 28px 0 12px;
+    color: #fff;
+}
+.oferOuter h5 {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+    margin: 18px 0;
+}
+.oferOuter p {
+    color: #fff;
+    font-size: 12px;
+}
+.oferOuter h6 {
+    opacity: 0.5;
+    font-size: 13px;
+}
+.offerHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.offerHead span {
+    background-image: linear-gradient(to bottom right, #3B7AD9, #70C4FA);
+    border-radius: 100px;
+    padding: 6px 19px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.offerHead a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.AirlineMember {
+    width: 100%;
+    display: table;
+    padding-top: 24px;
+}
+.leftAir label {
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.selectCus {
+    position: relative;
+}
+.selectCus span {
+    border: 1px solid #6B6B6B;
+    background: #000;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff7a;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+.selectCus ul {
+    position: absolute;
+    background: #000;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #6B6B6B;
+    padding: 8px 0;
+    top: 59px;
+    z-index: 9;
+}
+
+.selectCus ul li {
+    padding: 12px 17px;
+    border-bottom: 1px solid #6B6B6B80;
+    color: #ffffff96;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.leftAir select, .leftAir input {
+    border: 1px solid #6B6B6B;
+    background: #000;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff7a;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 16px;
+}
+.selectCus ul li:last-child
+{
+    border:0;
+}
+.selectCus ul li.active
+{
+    color: #03FE9D;
+}
+.selectCus::before {
+    content: "";
+    position: absolute;
+    right: 14px;
+    top: 18px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    opacity: 0.5;
+    transform: rotate(45deg);
+}
+@media (max-width:767px)
+{
+    .scrollTable
+
+    {
+        overflow-x: auto;
+    }
+    .EnterDevice p {
+        padding-right: 0px;
+    }
+    .supportDesc {
+        padding: 20px;
+    }
+    .supportDesc h6 {
+        font-size: 17px;
+    }
+    .coverageCountry ul li {
+        width: 50%;
+        font-size: 14px;
+        column-gap: 6px;
+    }
+    .PacageOptioOuter, .EnterDevice, .oferOuter, .coverageCountry {
+        padding: 20px 15px;
+    }
+    .leftAir {
+        padding-bottom: 8px;
+    }
+    .checkoutpage {
+        padding: 78px 0 50px;
+    }
+    .SelectSim ul li span {
+        font-size: 13px;
+        padding: 6px 6px;
+    }
+    .quaOuter{
+        padding: 9px 10px;
+        flex-wrap: wrap;
+    }
+    .inputCount {
+        min-height: 43px;
+    }
+    .inputCount span {
+        font-size: 20px;
+        padding: 0 6px;
+    }
+    .scrollTable table {
+        width: 100%;
+    }
+    .leftcheckoutable table tr td {
+        display: block;
+        text-align: right;
+        width: 100%;
+        position: relative;
+        padding-right: 13px;
+    }
+    .leftcheckoutable table tr th
+    {display: block;
+        text-align: right;
+        width: 100%;
+        display: none;
+
+    }
+    .checkoutpage h3 {
+        margin-bottom: 13px;
+        margin-top: 26px;
+        font-size: 23px;
+    }
+    .itmenImage {
+        justify-content: flex-end;
+    }
+    .pliceselect .gormGroup {
+        max-width: 110px;
+        margin-left: auto;
+    }
+    .leftcheckoutable table tr td:before {
+        content: "Product";
+        float: left;
+        font-size: 14px;
+        font-weight: 600;
+        position: absolute;
+        left: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .leftcheckoutable table tr td:nth-child(2):before {
+        content: "Pack";
+      }
+      .leftcheckoutable table tr td:nth-child(3):before {
+        content: "Quantity";
+      }
+      .leftcheckoutable table tr td:nth-child(4):before {
+        content: "Sub-Total";
+      }
+      .count h5, .quaOuter label {
+        font-size: 14px;
+    }
+    .payemntSummery button {
+        position: fixed;
+        bottom: 13px;
+        left: 10px;
+        right: 0;
+        z-index: 9;
+        max-width: 56%;
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .applyPromo .formGroup button {
+        position: static;
+        max-width: 100%;
+    }
+    
+}

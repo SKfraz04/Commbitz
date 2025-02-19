@@ -1,0 +1,304 @@
+.loginPage {
+    margin: 0;
+    background: #121314;
+}
+
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.ExtraSign p {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+.ExtraSign p a {
+    color: #1ffe9d;
+}
+.loginRight .form-group p {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.loginRight h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.loginRight h4 img {
+    margin-left: 10px;
+    max-width: 160px;
+}
+
+.loginRight .form-group label {
+    font-size: 16px;
+    width: 100%;
+    color: #CBCBCB;
+    margin-bottom: 3px;
+}
+
+.loginRight .form-group input[type="text"],
+.loginRight .form-group input[type="password"],
+.loginRight .form-group input[type="number"] {
+    border: 1px solid #4F4F4F;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    height: 55px;
+    font-weight: 400;
+    padding: 0 21px;
+    font-size: 16px;
+    color: #9A9AB0;
+    outline: none;
+}
+
+.loginRight .form-group {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.loginRight .form-group span {
+    position: absolute;
+    right: 19px;
+    top: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.loginRight .form-group input[type="checkbox"] {
+    border: 1px solid #4F4F4F;
+    background-color: #C9C9C9;
+
+}
+
+.loginRight .form-group label.remeber {
+    font-size: 12px;
+    color: #B8B8B8;
+    width: auto;
+}
+
+.loginRight .form-group a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.loginRight .form-group input[type="submit"] {
+    background-image: linear-gradient(to right, #1C77BC, #03FE9D);
+    background: #03FE9D;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 19px;
+    color: #000;
+}
+
+.loginRight .form-group input[type="checkbox"]:checked {
+    border: 1px solid #1ffe9d !important;
+    background-color: #1ffe9d !important;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.uploadPhoto {
+    width: 112px;
+    height: 112px;
+    border: 1px dashed #9A9AB0;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9A9AB0;
+    background: #121414;
+    z-index: 1;
+    position: relative;
+    pointer-events: none;
+}
+
+.uploadPhoto input {
+    font-size: 0;
+    border: 0;
+    padding: 0;
+}
+
+.PhotoUload h6 {
+    font-size: 11px;
+    color: #6C6C6C;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 8px 0 0;
+}
+
+.PhotoUload input[type="file"] {
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    font-size: 0;
+    border: 0;
+    background: transparent;
+    padding: 50px;
+}
+
+.topLogin {
+    position: absolute;
+    top: 0;
+}
+
+.loginrelate {
+    position: relative;
+}
+
+.topLogin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 26px 40px;
+}
+
+.topLogin p {
+    font-size: 14px;
+    color: #C7C7C7CC;
+    margin: 0;
+}
+
+.topLogin p a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.topLogin span a {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-left: auto;
+    float: right;
+}
+.topLogin span a:hover
+{
+    background: #1ffe9d;
+    color: #000;
+    border-color: #1ffe9d; 
+}
+.chkconditon {
+    display: flex
+;
+    column-gap: 10px;
+}
+@media (max-width:991px) {
+
+
+    .loginRight h4 {
+        font-size: 32px;
+    }
+
+    .loginRight {
+        padding: 0 19px;
+    }
+}
+
+@media (max-width:991px) {
+    .loginRight {
+        padding: 20px 20px;
+        /* height: auto; */
+    }
+
+    .loginRight h4 img {
+        max-width: 127px;
+    }
+
+    .loginRight h4 {
+        font-size: 28px;
+    }
+
+    .loginRight .form-group input[type="text"],
+    .loginRight .form-group input[type="password"],
+    .loginRight .form-group input[type="number"] {
+
+        height: 49px;
+    }
+
+    .loginRight .form-group input[type="submit"] {
+        height: 49px;
+        font-size: 17px;
+        margin-top: 3px;
+    }
+}
+
+@media (max-width:767px) {
+    .loginRight {
+        height: auto;
+    }
+
+    .topLogin {
+        position: static;
+        padding: 16px 17px;
+    }
+
+    .topLogin p {
+        margin: 0 0 11px;
+    }
+
+    .topLogin span a {
+        float: left;
+    }
+}
+
+.phoneNumber input {
+    border: 1px solid #4F4F4F;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    height: 55px;
+    font-weight: 400;
+    padding: 0 21px;
+    font-size: 16px;
+    color: #9A9AB0;
+    outline: none;
+}
+.PrfileIamge {
+    width: 104px;
+    height: 106px;
+    display: flex;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    pointer-events: none;
+}
+.Lodaer span {
+    color: #00ffa2;
+    position: static !important;
+}
+
+.Lodaer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}

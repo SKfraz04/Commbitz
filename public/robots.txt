@@ -1,0 +1,5 @@
+Sitemap: https://commbitz.com/sitemap.xml
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
+Sitemap: https://commbitz.com/

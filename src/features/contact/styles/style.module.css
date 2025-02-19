@@ -1,0 +1,223 @@
+.contactUS {
+    padding: 50px 0 60px;
+}
+.contactUS h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contactOuter {
+    background: #1C2B35;
+    padding: 13px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.leftContactRight select option
+{
+    padding: 16px 10px !important;
+    color: #FFF !important;
+    background: #1C2B35 !important;
+}
+.leftContactLeft {
+    width: 40%;
+    background: #03FE9D;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.leftContactRight
+{
+    width: 60%;
+    height: 100%;
+    padding: 45px;
+}
+.leftContactLeft h4 {
+    font-size: 28px;
+}
+.leftContactLeft h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.leftContactLeft p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 59px;
+    padding-left: 38px;
+    position: relative;
+}
+.leftContactLeft ul li {
+    width: 30px;
+    height: 30px;
+    background: #1B1B1B;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    margin-right: 21px;
+}
+.leftContactLeft ul li a {
+    color: #fff;
+    font-size: 13px;
+}
+.leftContactLeft p img
+{
+    position: absolute;
+    left:0;
+}
+.leftContactLeft ul {
+    padding: 0;
+    margin: 107px 0 0;
+    display: flex;
+}
+.leftContactRight .fromGroup label {
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+}
+.leftContactRight .fromGroup input[type="text"], .leftContactRight .fromGroup input[type="number"], .leftContactRight .fromGroup input[type="email"] {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8D8D8D;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+    appearance: none;
+    padding: 8px 0;
+}
+.leftContactRight .fromGroup input[type="tel"] {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8D8D8D;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+    appearance: none;
+    height: 38px;
+    padding: 8px 0;
+}
+.leftContactRight .fromGroup select{
+    background: transparent;
+    border: 0;
+    appearance: none;
+    border-bottom: 1px solid #8D8D8D;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 0;
+}
+.leftContactRight .fromGroup input[type="submit"] {
+    background-image: linear-gradient(to right, #1C77BC , #03FE9D);
+    background: #03FE9D;
+    border: 0;
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    float: right;
+}
+.leftContactRight .fromGroup 
+{
+margin-bottom: 35px;
+}
+.leftContactRight h5
+{
+    font-size: 14px;
+    color: #fff;
+    
+}
+.radiobn .formcheck {
+    margin-right: 20px;
+    font-size: 14px;
+    display: flex;
+}
+.radiobn .formcheck input
+{
+    margin-right: 6px;
+}
+.radiobn {
+    display: flex;
+    align-items: center;
+}
+.leftContactRight .fromGroup textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8D8D8D;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 0;
+}
+@media (max-width:1400px)
+{
+    .leftContactRight {
+        padding: 25px;
+    }
+}
+
+@media (max-width:1300px)
+{
+    .radiobn {
+        flex-wrap: wrap;
+    }
+    .radiobn .formcheck {
+        margin-bottom: 12px;
+    }
+    .leftContactLeft {
+        padding: 20px;
+    }
+}
+@media (max-width:991px)
+{
+    .leftContactLeft {
+        width: 100%;
+    }
+    .leftContactRight {
+        width: 100%;
+    }
+    .contactOuter {
+        background: #1C2B35;
+        padding: 13px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:767px)
+{
+.leftContactLeft h4 {
+    font-size: 21px;
+}
+.leftContactLeft h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.leftContactLeft p {
+    margin-bottom: 31px;
+}
+.leftContactLeft ul {
+    margin: 37px 0 0;
+}
+.contactUS {
+    padding: 30px 0 31px;
+}
+.leftContactRight {
+    padding: 20px 3px;
+}
+}
+.addressTitle {
+    margin-bottom: 20px !important;
+    color: #000 !important;
+}
+.addressItem{
+    margin-bottom: 25px !important;
+}

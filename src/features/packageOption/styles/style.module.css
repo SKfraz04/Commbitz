@@ -1,0 +1,603 @@
+.PacageOptioOuter, .EnterDevice, .oferOuter, .coverageCountry {
+    background: #1A2228;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.PacageOptioOuter h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+.coverCountryOuter h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+.coverageCountry ul li {
+    width: 25%;
+    color: #ffffff7d;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.coverageCountry ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.coverageCountry ul li span{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.AirlineMember {
+    width: 100%;
+    display: table;
+    padding-top: 24px;
+}
+.leftAir label {
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.PacageOptioOuter h4 a {
+    color: #FF0000;
+    font-size: 16px;
+}
+.EnterDevice p {
+    color: #fff;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 120px;
+    position: relative;
+    margin: 0;
+}
+.suportHead h4 {
+    color: #fff;
+    font-size: 20px;
+    padding: 13px 26px 23px;
+    margin: 0;
+}
+.selectCus span {
+    border: 1px solid #6B6B6B;
+    background: #000;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff7a;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+.suportHead {
+    border-bottom: 1px solid #515151;
+}
+.selectCus ul {
+    position: absolute;
+    background: #000;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #6B6B6B;
+    padding: 8px 0;
+    top: 59px;
+    z-index: 9;
+}
+.selectCus ul li {
+    padding: 12px 17px;
+    border-bottom: 1px solid #6B6B6B80;
+    color: #ffffff96;
+    font-size: 14px;
+    font-weight: 400;
+}
+.selectCus ul li:last-child
+{
+    border:0;
+}
+.selectCus ul li.active
+{
+    color: #03FE9D;
+}
+.supportDesc {
+    padding: 26px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.supportDesc a {
+    background: #03FE9D;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: #000;
+    font-weight: 500;
+}
+.supportDesc ul li {
+    list-style: disc;
+    padding: 2px 0;
+    margin-left: 18px;
+}
+.supportDesc ul {
+    margin-bottom: 15px;
+}
+.supportDesc p, .supportDesc ul li {
+    color: #B8B8B8;
+    font-size: 15px;
+    font-weight: 500;
+}
+.supportDesc h5 {
+    color: #03FE9D;
+    font-size: 22px;
+}
+.selectCus::before {
+    content: "";
+    position: absolute;
+    right: 14px;
+    top: 18px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    opacity: 0.5;
+    transform: rotate(45deg);
+}
+.selectCus {
+    
+    position: relative;
+}
+.leftAir select, .leftAir input {
+    border: 1px solid #6B6B6B;
+    background: #000;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff7a;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 16px;
+}
+.EnterDevice p input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background: #03fe9d; */
+}
+.EnterDevice .FromGroup {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.EnterDevice .FromGroup button {
+    height: 43px;
+    padding: 0 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to right, #1D7ABF, #2EAFF7);
+    color: #fff;
+}
+.EnterDevice .FromGroup input
+{
+    width: 100%;
+    height: 43px;
+    background: #000;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 14px;
+
+}
+.EnterDevice p span {
+    font-weight: 600;
+    cursor: pointer;
+    color: #03fe9d;
+}
+.SelectSim h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.PacageOptioOuter h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin: 24px  0 24px;
+}
+.SelectSim h6, .Quantity h6 {
+    color: #fff;
+    opacity: 0.6;
+    margin: 0 0 20px;
+}
+.SelectSim ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.SelectSim {
+    margin-bottom: 29px;
+}
+.quaOuter {
+    border: 1px solid #5C5C5C;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.simSupport h3 {
+    font-size: 35px;
+}
+
+.quaOuter label {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+.count h5 span {
+    color: #929FA5;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-right: 16px;
+}
+.count h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}   
+.inputCount {
+    background: #03fe9d;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    padding: 6px 18px;
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    justify-content: center;
+    min-height: 52px;
+}
+.inputCount span {
+    font-size: 27px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.inputCount input {
+    width: 35px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #000;
+}
+.SelectSim ul li {
+    list-style: none;
+}
+.SelectSim ul li span {
+    border: 1px solid #5C5C5C;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #9E9E9E;
+    padding: 8px 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+.SelectSim ul li.active span {
+    background: #03FE9D;
+    color: #000;
+    /* font-weight: 600; */
+    border-color: #03FE9D;
+}
+.offerWeProvide h4 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin: 28px 0 12px;
+}
+.offerHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.offerHead span {
+    background-image: linear-gradient(to bottom right, #3B7AD9, #70C4FA);
+    border-radius: 100px;
+    padding: 6px 19px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.offerHead a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.oferOuter h5 {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+    margin: 18px 0;
+}
+.oferOuter p {
+    color: #fff;
+    font-size: 12px;
+}
+.oferOuter h6 {
+    opacity: 0.5;
+    font-size: 13px;
+}
+.simSupport {
+    margin: 40px 0 0;
+}
+.simSupport h4 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 38px;
+}
+.acrodPage {
+    background: #1A2228;
+}
+.accordionItem {
+    border-bottom: 1px solid #959595;
+}
+.accordionItem button {
+    width: 100%;
+    background: #1a2228;
+    border: 0;
+    color: #fff;
+    text-align: left;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordionBoody ul li {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    margin: 8px 18px;
+    list-style: disc;
+}
+.accordionBoody {
+    padding: 0 20px 25px;
+}
+.accordionBoody h5 {
+    color: #fff;
+    margin: 20px 0 11px;
+    opacity: 0.7;
+}
+.PackageOption
+{
+    padding-bottom: 60px;
+}
+.packageDetails, .packageDetailsPoint {
+    background: #1A2228;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.packageDetails h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.packageDetails ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.packageDetails ul li:last-child {
+    border-top: 1px solid #E4E7E966;
+    padding-top: 17px;
+    margin-top: 15px;
+}
+.applyPromo {
+    padding-top: 22px;
+}
+.applyPromo h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.applyPromo .formGroup {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.applyPromo .formGroup input {
+    width: 100%;
+    height: 43px;
+    background: #000;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 14px;
+}
+.applyPromo .formGroup button {
+    height: 43px;
+    padding: 0 26px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to right, #1D7ABF, #2EAFF7);
+    color: #fff;
+}
+.applyPromo p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.5;
+    margin: 11px 0 30px;
+}
+button.aplyBtn {
+    height: 56px;
+    width: 100%;
+    background: #03FE9D;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.packageDetailsPoint h4 {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.packageDetailsPoint ul {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-wrap: wrap;
+    margin: 20px 0 10px;
+}
+.packageDetailsPoint ul li span {
+    border: 1px solid #9E9E9E;
+    font-size: 14px;
+    color: #9E9E9E;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+.usageOncept {
+    padding-top: 16px;
+}
+.usagedetailOuter .usagebox {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 9px 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.usageBody p {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: justify;
+}
+@media (max-width:767px)
+{
+    .PacageOptioOuter, .EnterDevice, .oferOuter, .coverageCountry {
+        padding: 20px;
+    }
+    .EnterDevice p {
+        padding-right: 0px;
+    }
+    .quaOuter{
+        padding: 9px 10px;
+        flex-wrap: wrap;
+    }
+    .supportDesc {
+        padding: 20px;
+    }
+    .supportDesc h6 {
+        font-size: 17px;
+    }
+    .leftAir {
+        padding-bottom: 8px;
+    }
+    .inputCount span {
+        font-size: 20px;
+        padding: 0 6px;
+    }
+    .count h5, .quaOuter label {
+        font-size: 14px;
+    }
+    .inputCount {
+        min-height: 43px;
+    }
+    .coverageCountry ul li {
+        width: 50%;
+        font-size: 14px;
+        column-gap: 3px;
+    }
+    .EnterDevice p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .SelectSim ul li span {
+        font-size: 13px;
+        padding: 6px 6px;
+    }
+    .offerWeProvide h4 {
+        font-size: 19px;
+    }
+    .offerWeProvide h4 {
+        font-size: 19px;
+        margin: 28px 0 12px;
+    }
+    .simSupport h3 {
+        font-size: 23px;
+    }
+    .simSupport h3 {
+        font-size: 23px;
+    }
+    .simSupport h4 {
+        font-size: 15px;
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+    .accordionItem button {
+        font-size: 15px;
+    }
+    .RightPackage
+    {
+        margin-top: 25px;
+    }
+    .packageDetails, .packageDetailsPoint {
+        padding: 20px;
+    }
+    .packageDetails, .packageDetailsPoint {
+        padding: 20px;
+    }
+    .packageDetails, .packageDetailsPoint {
+        padding: 20px;
+    }
+    button.aplyBtn {
+        height: 50px;
+        font-size: 18px;
+    }
+    .packageDetailsPoint ul li span {
+        font-size: 13px;
+    }
+ 
+}
