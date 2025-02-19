@@ -66,11 +66,16 @@
     -->
   <script src="https://js.stripe.com/v3/"></script>
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-  <!-- <script>
+  <script>
     if (navigator.userAgent.includes("Instagram")) {
-      alert("For the best experience, please open this link in Safari.");
+      // Check if it's iOS
+      if (navigator.platform.indexOf("iPhone") != -1 || navigator.platform.indexOf("iPad") != -1) {
+        // Create Safari URL scheme
+        const safariURL = "safari-https://" + window.location.hostname + window.location.pathname + window.location.search;
+        window.location.replace(safariURL);
+      }
     }
-  </script> -->
+  </script>
 </body>
 
 </html>
