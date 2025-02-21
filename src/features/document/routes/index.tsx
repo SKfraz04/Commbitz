@@ -8,7 +8,7 @@ import { Layout } from "../../../components";
 import { addOrder, uploadImage } from "../api";
 import { UploadDocumentSchema } from "../validations";
 import MainLoader from "../../../components/mainLoader";
-import { messaging } from "../../../utils/firebaseConfig";
+// import { messaging } from "../../../utils/firebaseConfig";
 import Resizer from "react-image-file-resizer";
 import { CRIPTO_SECRETKEY, NIYO_URL } from "../../../config";
 import { decodeBase64 } from "../../../utils/secureToken";
@@ -40,11 +40,11 @@ function Document() {
   });
   const formData = new FormData();
 
-  const getFireBaseToken = async () => {
-    const token =
-      await messaging?.firebaseDependencies?.installations?.getToken();
-    setDeviceToken(token);
-  };
+  // const getFireBaseToken = async () => {
+  //   const token =
+  //     await messaging?.firebaseDependencies?.installations?.getToken();
+  //   setDeviceToken(token);
+  // };
   const secureToken: any = decodeBase64(urlToken);
   const secureUserPartnerInfoId: any = decodeBase64(urlUserPartnerInfo);
 
@@ -81,7 +81,7 @@ function Document() {
     )
       window.localStorage.setItem("niyoToken", secureToken);
     window.scrollTo(0, 0);
-    getFireBaseToken();
+    // getFireBaseToken();
   }, []);
 
   const uploadFile = (formData: FormData, key: string) => {
