@@ -13,17 +13,26 @@
 
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <meta name="theme-color" content="#000000" />
 
-  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: https://ssl.gstatic.com;
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: https://ssl.gstatic.com;
     style-src * 'self' 'unsafe-inline';
     script-src * 'self' 'unsafe-inline' 'unsafe-eval';
-    media-src * blob: 'self' 'unsafe-inline' 'unsafe-eval';">
+    media-src * blob: 'self' 'unsafe-inline' 'unsafe-eval';"> -->
+  <meta http-equiv="Content-Security-Policy" content=" default-src 'self' https://*.googletagmanager.com
+    https://js.stripe.com https://checkout.razorpay.com data: app://*; script-src 'self' 'unsafe-inline' 'unsafe-eval'
+    https://*.googletagmanager.com https://js.stripe.com https://checkout.razorpay.com; style-src 'self' 'unsafe-inline'
+    https://cdnjs.cloudflare.com; img-src 'self' data: https://*.googletagmanager.com; frame-src 'self'
+    https://*.googletagmanager.com https://m.stripe.network https://checkout.razorpay.com; frame-ancestors 'self'
+    app://* https://*.instagram.com https://*.facebook.com; connect-src 'self' https://r.stripe.com
+    https://your-api.com; form-action 'self' ; base-uri 'self' ; " />
 
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <link rel=" apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -72,7 +81,7 @@
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
   <script>
     if (navigator.userAgent.includes("Instagram")) {
-      alert("For the best experience, please open this link in Safari.....");
+      alert("For the best experience, please open this link in Safari");
     }
   </script>
 </body>

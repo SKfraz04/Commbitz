@@ -17,7 +17,7 @@ const AppRoutes = () => {
 
 	const elements = useRoutes(routes);
 
-	return <>{elements}+"aaaaaaaaaaaaaaa"</>;
+	return <>{elements}</>;
 };
 
 export default AppRoutes;
